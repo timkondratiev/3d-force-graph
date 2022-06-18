@@ -18,19 +18,20 @@
         // Stats / GUI
         (function () { var script = document.createElement('script'); script.onload = function () { var stats = new Stats(); document.body.appendChild(stats.dom); requestAnimationFrame(function loop() { stats.update(); requestAnimationFrame(loop) }); }; script.src = '//mrdoob.github.io/stats.js/build/stats.min.js'; document.head.appendChild(script); })()
 
-
+        let gData
 
         // Grgaph generation and visualization
         fetch('SBOM.json')
             .then(res => res.json())
-            .then(out => {
-
-
+            .then(sbom => {
 
                 // Make graph data
-                sbom = out
-                const gData = {
-                    nodes: sbom.dependencies.map((module, i) => ({ id: module.ref })),
+                namesArray = []
+                gData = {
+                    nodes: sbom.dependencies.map((module, i) => {
+                        namesArray.push(module.ref)
+                        return { id: i, name: module.ref }
+                    }),
                     // nodes: sbom.components
                     // .filter(comp => comp.type === "library")
                     // .map( component => ({name:component["bom-ref"], ...component})),
@@ -40,13 +41,13 @@
                 for (let module of sbom.dependencies) {
                     if (!module.dependsOn) continue
                     for (let j of module.dependsOn) {
-                        gData.links.push({ source: module.ref, target: j })
+                        gData.links.push({ source: namesArray.indexOf(module.ref), target: namesArray.indexOf(j) })
                     }
                 }
 
                 // cross-link node objects
                 gData.links.forEach(link => {
-                    console.log(gData)
+                    // console.log(gData)
                     const a = gData.nodes[link.source];
                     const b = gData.nodes[link.target];
                     !a.neighbors && (a.neighbors = []);
@@ -110,7 +111,7 @@
                         return mesh
 
                     })
-                    .nodeLabel(node => node.id)
+                    .nodeLabel(node => node.name)
                     .linkOpacity(0.5);
 
 
@@ -120,18 +121,19 @@
                 const guiResetCamera = { resetCamera: () => Graph.cameraPosition({ x: 0, y: 0, z: 1000 }) };
                 const resetController = gui.add(guiResetCamera, 'resetCamera').name("Reset Camera");
 
+                function updateHighlight() {
+                    // trigger update of highlighted objects in scene
+                    Graph
+                        .nodeColor(Graph.nodeColor())
+                        .linkWidth(Graph.linkWidth())
+                        .linkDirectionalParticles(Graph.linkDirectionalParticles());
+                }
             }
             )
             .catch(err => { throw err });
 
 
-        function updateHighlight() {
-            // trigger update of highlighted objects in scene
-            Graph
-                .nodeColor(Graph.nodeColor())
-                .linkWidth(Graph.linkWidth())
-                .linkDirectionalParticles(Graph.linkDirectionalParticles());
-        }
+
 
 
     </script>
