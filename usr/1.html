@@ -18,7 +18,7 @@
         // Stats / GUI
         (function () { var script = document.createElement('script'); script.onload = function () { var stats = new Stats(); document.body.appendChild(stats.dom); requestAnimationFrame(function loop() { stats.update(); requestAnimationFrame(loop) }); }; script.src = '//mrdoob.github.io/stats.js/build/stats.min.js'; document.head.appendChild(script); })()
 
-        let gData
+        let gData, Graph
 
         // Grgaph generation and visualization
         fetch('SBOM.json')
@@ -26,6 +26,11 @@
             .then(sbom => {
 
                 // Make graph data
+                gProps = {
+                    nodeColor: 0xffffff,
+                    linkColor: 0xffffff,
+                }
+
                 namesArray = []
                 gData = {
                     nodes: sbom.dependencies.map((module, i) => {
@@ -66,11 +71,24 @@
                 let hoverNode = null;
 
                 // Create graph object
-                const Graph = ForceGraph3D()
+                Graph = ForceGraph3D()
                     (document.getElementById('3d-graph'))
                     .graphData(gData)
+                    .dagMode('lr')
+                    .dagLevelDistance(50)
+
+
                     .nodeColor(node => highlightNodes.has(node) ? node === hoverNode ? 'rgb(255,0,0,1)' : 'rgba(255,160,0,0.8)' : 'rgba(0,255,255,0.6)')
-                    .linkWidth(link => highlightLinks.has(link) ? 4 : 1)
+                    .nodeLabel(node => node.name)
+                    .nodeThreeObject(() => {
+
+                        const material = new THREE.MeshBasicMaterial({ color: 0xffffff })
+                        // const sphereGeo = new THREE.SphereBufferGeometry( 4, 9, 4 )
+                        const sphereGeo = new THREE.IcosahedronBufferGeometry(4, 0)
+                        const mesh = new THREE.Mesh(sphereGeo, material)
+                        return mesh
+
+                    })
                     .onNodeHover(node => {
                         // no state change
                         if ((!node && !highlightNodes.size) || (node && hoverNode === node)) return;
@@ -87,6 +105,8 @@
 
                         updateHighlight();
                     })
+
+
                     .onLinkHover(link => {
                         highlightNodes.clear();
                         highlightLinks.clear();
@@ -99,20 +119,10 @@
 
                         updateHighlight();
                     })
-
-                    .dagMode('lr')
-                    .dagLevelDistance(50)
-                    .nodeThreeObject(() => {
-
-                        const material = new THREE.MeshBasicMaterial({ color: 0xffffff })
-                        // const sphereGeo = new THREE.SphereBufferGeometry( 4, 9, 4 )
-                        const sphereGeo = new THREE.IcosahedronBufferGeometry(4, 0)
-                        const mesh = new THREE.Mesh(sphereGeo, material)
-                        return mesh
-
-                    })
-                    .nodeLabel(node => node.name)
-                    .linkOpacity(0.5);
+                    .linkWidth(link => highlightLinks.has(link) ? 3 : 1)
+                    .linkOpacity(1)
+                    // .linkColor(link => link.color = 0xff0000)
+                    .linkMaterial(new THREE.MeshBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.3 }))
 
 
                 //Use GUI
