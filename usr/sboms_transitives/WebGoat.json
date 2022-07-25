@@ -1,0 +1,243 @@
+[
+ {
+  "path": "pom.xml",
+  "type": "file",
+  "name": "pom.xml",
+  "extension": ".xml",
+  "result": {
+   "platform": "maven",
+   "dependencies": [
+    {
+     "name": "cglib:cglib-nodep",
+     "requirement": "${cglib.version}",
+     "env": "compile"
+    },
+    {
+     "name": "cglib:cglib-nodep",
+     "env": "compile"
+    },
+    {
+     "name": "com.github.tomakehurst:wiremock",
+     "requirement": "${wiremock.version}",
+     "env": "compile"
+    },
+    {
+     "name": "com.github.tomakehurst:wiremock",
+     "env": "test"
+    },
+    {
+     "name": "com.google.guava:guava",
+     "requirement": "${guava.version}",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.guava:guava",
+     "env": "compile"
+    },
+    {
+     "name": "com.nulab-inc:zxcvbn",
+     "requirement": "${zxcvbn.version}",
+     "env": "compile"
+    },
+    {
+     "name": "com.nulab-inc:zxcvbn",
+     "env": "compile"
+    },
+    {
+     "name": "com.thoughtworks.xstream:xstream",
+     "requirement": "${xstream.version}",
+     "env": "compile"
+    },
+    {
+     "name": "com.thoughtworks.xstream:xstream",
+     "env": "compile"
+    },
+    {
+     "name": "commons-io:commons-io",
+     "requirement": "${commons-io.version}",
+     "env": "compile"
+    },
+    {
+     "name": "commons-io:commons-io",
+     "env": "compile"
+    },
+    {
+     "name": "io.github.bonigarcia:webdrivermanager",
+     "requirement": "${webdriver.version}",
+     "env": "compile"
+    },
+    {
+     "name": "io.jsonwebtoken:jjwt",
+     "requirement": "${jjwt.version}",
+     "env": "compile"
+    },
+    {
+     "name": "io.jsonwebtoken:jjwt",
+     "env": "compile"
+    },
+    {
+     "name": "io.rest-assured:rest-assured",
+     "env": "test"
+    },
+    {
+     "name": "javax.xml.bind:jaxb-api",
+     "env": "compile"
+    },
+    {
+     "name": "org.apache.commons:commons-compress",
+     "requirement": "1.21",
+     "resolved_requirement": "1.21",
+     "env": "compile"
+    },
+    {
+     "name": "org.apache.commons:commons-exec",
+     "requirement": "1.3",
+     "resolved_requirement": "1.3",
+     "env": "compile"
+    },
+    {
+     "name": "org.apache.commons:commons-exec",
+     "env": "compile"
+    },
+    {
+     "name": "org.apache.commons:commons-lang3",
+     "env": "compile"
+    },
+    {
+     "name": "org.apache.commons:commons-text",
+     "requirement": "${commons-text.version}",
+     "env": "compile"
+    },
+    {
+     "name": "org.apache.commons:commons-text",
+     "env": "compile"
+    },
+    {
+     "name": "org.asciidoctor:asciidoctorj",
+     "requirement": "${asciidoctorj.version}",
+     "env": "compile"
+    },
+    {
+     "name": "org.asciidoctor:asciidoctorj",
+     "env": "compile"
+    },
+    {
+     "name": "org.bitbucket.b_c:jose4j",
+     "requirement": "${jose4j.version}",
+     "env": "compile"
+    },
+    {
+     "name": "org.bitbucket.b_c:jose4j",
+     "env": "compile"
+    },
+    {
+     "name": "org.flywaydb:flyway-core",
+     "env": "compile"
+    },
+    {
+     "name": "org.glassfish.jaxb:jaxb-runtime",
+     "env": "compile"
+    },
+    {
+     "name": "org.hsqldb:hsqldb",
+     "env": "compile"
+    },
+    {
+     "name": "org.jruby:jruby",
+     "requirement": "9.3.6.0",
+     "resolved_requirement": "9.3.6.0",
+     "env": "compile"
+    },
+    {
+     "name": "org.jsoup:jsoup",
+     "requirement": "${jsoup.version}",
+     "env": "compile"
+    },
+    {
+     "name": "org.jsoup:jsoup",
+     "env": "compile"
+    },
+    {
+     "name": "org.ow2.asm:asm",
+     "requirement": "9.1",
+     "resolved_requirement": "9.1",
+     "env": "compile"
+    },
+    {
+     "name": "org.projectlombok:lombok",
+     "env": "provided"
+    },
+    {
+     "name": "org.springframework.boot:spring-boot-starter-actuator",
+     "env": "compile"
+    },
+    {
+     "name": "org.springframework.boot:spring-boot-starter-data-jpa",
+     "env": "compile"
+    },
+    {
+     "name": "org.springframework.boot:spring-boot-starter-security",
+     "env": "compile"
+    },
+    {
+     "name": "org.springframework.boot:spring-boot-starter-test",
+     "env": "test"
+    },
+    {
+     "name": "org.springframework.boot:spring-boot-starter-thymeleaf",
+     "env": "compile"
+    },
+    {
+     "name": "org.springframework.boot:spring-boot-starter-undertow",
+     "env": "compile"
+    },
+    {
+     "name": "org.springframework.boot:spring-boot-starter-validation",
+     "env": "compile"
+    },
+    {
+     "name": "org.springframework.boot:spring-boot-starter-web",
+     "env": "compile"
+    },
+    {
+     "name": "org.springframework.security:spring-security-test",
+     "env": "test"
+    },
+    {
+     "name": "org.thymeleaf.extras:thymeleaf-extras-springsecurity5",
+     "env": "compile"
+    },
+    {
+     "name": "org.webjars:bootstrap",
+     "requirement": "${bootstrap.version}",
+     "env": "compile"
+    },
+    {
+     "name": "org.webjars:bootstrap",
+     "env": "compile"
+    },
+    {
+     "name": "org.webjars:jquery",
+     "requirement": "${jquery.version}",
+     "env": "compile"
+    },
+    {
+     "name": "org.webjars:jquery",
+     "env": "compile"
+    },
+    {
+     "name": "xml-resolver:xml-resolver",
+     "requirement": "${xml-resolver.version}",
+     "env": "compile"
+    },
+    {
+     "name": "xml-resolver:xml-resolver",
+     "env": "compile"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ }
+]

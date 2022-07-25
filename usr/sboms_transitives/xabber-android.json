@@ -1,0 +1,327 @@
+[
+ {
+  "path": "build.gradle",
+  "type": "file",
+  "name": "build.gradle",
+  "extension": ".gradle",
+  "result": {
+   "platform": "maven",
+   "dependencies": [
+    {
+     "name": "com.android.tools.build:gradle",
+     "requirement": "3.4.2",
+     "resolved_requirement": "3.4.2",
+     "env": "classpath"
+    },
+    {
+     "name": "com.frogermcs.androiddevmetrics:androiddevmetrics-plugin",
+     "requirement": "0.4",
+     "resolved_requirement": "0.4",
+     "env": "classpath"
+    },
+    {
+     "name": "com.google.gms:google-services",
+     "requirement": "4.2.0",
+     "resolved_requirement": "4.2.0",
+     "env": "classpath"
+    },
+    {
+     "name": "com.neenbedankt.gradle.plugins:android-apt",
+     "requirement": "1.8",
+     "resolved_requirement": "1.8",
+     "env": "classpath"
+    },
+    {
+     "name": "io.fabric.tools:gradle",
+     "requirement": "1.25.4",
+     "resolved_requirement": "1.25.4",
+     "env": "classpath"
+    },
+    {
+     "name": "io.realm:realm-gradle-plugin",
+     "requirement": "3.1.1",
+     "resolved_requirement": "3.1.1",
+     "env": "classpath"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "xabber/build.gradle",
+  "type": "file",
+  "name": "build.gradle",
+  "extension": ".gradle",
+  "result": {
+   "platform": "maven",
+   "dependencies": [
+    {
+     "name": "androidx.browser:browser",
+     "requirement": "1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "implementation"
+    },
+    {
+     "name": "androidx.legacy:legacy-support-v13",
+     "requirement": "1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "implementation"
+    },
+    {
+     "name": "androidx.multidex:multidex",
+     "requirement": "2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "implementation"
+    },
+    {
+     "name": "com.amulyakhare:com.amulyakhare.textdrawable",
+     "requirement": "1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "implementation"
+    },
+    {
+     "name": "com.crashlytics.sdk.android:crashlytics",
+     "requirement": "2.9.5",
+     "resolved_requirement": "2.9.5",
+     "env": "storeImplementation"
+    },
+    {
+     "name": "com.facebook.android:facebook-login",
+     "requirement": "4.36.1",
+     "resolved_requirement": "4.36.1",
+     "env": "storeImplementation"
+    },
+    {
+     "name": "com.github.bumptech.glide:glide",
+     "requirement": "4.9.0",
+     "resolved_requirement": "4.9.0",
+     "env": "implementation"
+    },
+    {
+     "name": "com.github.markzhai:blockcanary-android",
+     "requirement": "1.5.0",
+     "resolved_requirement": "1.5.0",
+     "env": "debugImplementation"
+    },
+    {
+     "name": "com.github.markzhai:blockcanary-no-op",
+     "requirement": "1.5.0",
+     "resolved_requirement": "1.5.0",
+     "env": "releaseImplementation"
+    },
+    {
+     "name": "com.github.redsolution:otr4j",
+     "requirement": "custom-SNAPSHOT",
+     "env": "implementation"
+    },
+    {
+     "name": "com.github.str4tocaster.smack:smack-android-extensions",
+     "requirement": "ffb99cc",
+     "env": "implementation"
+    },
+    {
+     "name": "com.github.str4tocaster.smack:smack-experimental",
+     "requirement": "ffb99cc",
+     "env": "implementation"
+    },
+    {
+     "name": "com.github.str4tocaster.smack:smack-resolver-dnsjava",
+     "requirement": "ffb99cc",
+     "env": "implementation"
+    },
+    {
+     "name": "com.github.str4tocaster.smack:smack-tcp",
+     "requirement": "ffb99cc",
+     "env": "implementation"
+    },
+    {
+     "name": "com.google.android.gms:play-services-auth",
+     "requirement": "15.0.0",
+     "resolved_requirement": "15.0.0",
+     "env": "storeImplementation"
+    },
+    {
+     "name": "com.google.android.gms:play-services-safetynet",
+     "requirement": "16.0.0",
+     "resolved_requirement": "16.0.0",
+     "env": "storeImplementation"
+    },
+    {
+     "name": "com.google.android.material:material",
+     "requirement": "1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "implementation"
+    },
+    {
+     "name": "com.google.firebase:firebase-messaging",
+     "requirement": "17.3.4",
+     "resolved_requirement": "17.3.4",
+     "env": "storeImplementation"
+    },
+    {
+     "name": "com.google.zxing:android-integration",
+     "requirement": "3.3.0",
+     "resolved_requirement": "3.3.0",
+     "env": "implementation"
+    },
+    {
+     "name": "com.melnykov:floatingactionbutton",
+     "requirement": "1.3.0",
+     "resolved_requirement": "1.3.0",
+     "env": "implementation"
+    },
+    {
+     "name": "com.soundcloud.android:android-crop",
+     "requirement": "1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "implementation"
+    },
+    {
+     "name": "com.squareup.leakcanary:leakcanary-android-no-op",
+     "requirement": "1.5.4",
+     "resolved_requirement": "1.5.4",
+     "env": "releaseImplementation"
+    },
+    {
+     "name": "com.squareup.leakcanary:leakcanary-android",
+     "requirement": "1.5.4",
+     "resolved_requirement": "1.5.4",
+     "env": "debugImplementation"
+    },
+    {
+     "name": "com.squareup.okhttp3:logging-interceptor",
+     "requirement": "3.5.0",
+     "resolved_requirement": "3.5.0",
+     "env": "implementation"
+    },
+    {
+     "name": "com.squareup.okhttp3:okhttp",
+     "requirement": "3.5.0",
+     "resolved_requirement": "3.5.0",
+     "env": "implementation"
+    },
+    {
+     "name": "com.squareup.retrofit2:adapter-rxjava",
+     "requirement": "2.3.0",
+     "resolved_requirement": "2.3.0",
+     "env": "implementation"
+    },
+    {
+     "name": "com.squareup.retrofit2:converter-gson",
+     "requirement": "2.3.0",
+     "resolved_requirement": "2.3.0",
+     "env": "implementation"
+    },
+    {
+     "name": "com.squareup.retrofit2:retrofit",
+     "requirement": "2.3.0",
+     "resolved_requirement": "2.3.0",
+     "env": "implementation"
+    },
+    {
+     "name": "com.twitter.sdk.android:twitter",
+     "requirement": "3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "storeImplementation"
+    },
+    {
+     "name": "commons-io:commons-io",
+     "requirement": "2.6",
+     "resolved_requirement": "2.6",
+     "env": "implementation"
+    },
+    {
+     "name": "de.hdodenhof:circleimageview",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "implementation"
+    },
+    {
+     "name": "eu.davidea:flexible-adapter",
+     "requirement": "5.0.0-rc4",
+     "resolved_requirement": "5.0.0-rc4",
+     "env": "implementation"
+    },
+    {
+     "name": "io.reactivex:rxandroid",
+     "requirement": "1.1.0",
+     "resolved_requirement": "1.1.0",
+     "env": "implementation"
+    },
+    {
+     "name": "io.reactivex:rxjava",
+     "requirement": "1.1.0",
+     "resolved_requirement": "1.1.0",
+     "env": "implementation"
+    },
+    {
+     "name": "junit:junit",
+     "requirement": "4.12",
+     "resolved_requirement": "4.12",
+     "env": "testImplementation"
+    },
+    {
+     "name": "me.relex:circleindicator",
+     "requirement": "1.2.2",
+     "resolved_requirement": "1.2.2",
+     "env": "implementation"
+    },
+    {
+     "name": "org.bouncycastle:bcpkix-jdk15on",
+     "requirement": "1.58",
+     "resolved_requirement": "1.58",
+     "env": "implementation"
+    },
+    {
+     "name": "org.greenrobot:eventbus",
+     "requirement": "3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "implementation"
+    },
+    {
+     "name": "org.robolectric:robolectric",
+     "requirement": "4.0",
+     "resolved_requirement": "4.0",
+     "env": "testImplementation"
+    },
+    {
+     "name": "org.robolectric:shadows-multidex",
+     "requirement": "4.0.1",
+     "resolved_requirement": "4.0.1",
+     "env": "testImplementation"
+    },
+    {
+     "name": "ru.egslava:MaskedEditText",
+     "requirement": "1.0.5",
+     "resolved_requirement": "1.0.5",
+     "env": "implementation"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "xabber/emojicon/build.gradle",
+  "type": "file",
+  "name": "build.gradle",
+  "extension": ".gradle",
+  "result": {
+   "platform": "maven",
+   "dependencies": [
+    {
+     "name": "androidx.legacy:legacy-support-v13",
+     "requirement": "1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "implementation"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ }
+]
