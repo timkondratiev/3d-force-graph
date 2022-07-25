@@ -1,0 +1,9418 @@
+[
+ {
+  "path": "samples/Clients/old/MvcHybrid/MvcHybrid.csproj",
+  "type": "file",
+  "name": "MvcHybrid.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Authentication.OpenIdConnect",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Clients/old/MvcHybridAutomaticRefresh/MvcHybridAutomaticRefresh.csproj",
+  "type": "file",
+  "name": "MvcHybridAutomaticRefresh.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.App",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp2.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Clients/old/MvcImplicit/MvcImplicit.csproj",
+  "type": "file",
+  "name": "MvcImplicit.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Authentication.OpenIdConnect",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Clients/old/MvcImplicit/package-lock.json",
+  "type": "file",
+  "name": "package-lock.json",
+  "extension": ".json",
+  "result": {
+   "platform": "npm",
+   "dependencies": [
+    {
+     "name": "amdefine",
+     "resolved_requirement": "1.0.1",
+     "env": "dev"
+    },
+    {
+     "name": "ansi-gray",
+     "requirement": "^0.1.1",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "fancy-log"
+     ]
+    },
+    {
+     "name": "ansi-regex",
+     "requirement": "^0.2.0",
+     "resolved_requirement": "0.2.1",
+     "env": "dev",
+     "parent": [
+      "has-ansi"
+     ]
+    },
+    {
+     "name": "ansi-regex",
+     "requirement": "^0.2.1",
+     "resolved_requirement": "0.2.1",
+     "env": "dev",
+     "parent": [
+      "has-ansi",
+      "strip-ansi"
+     ]
+    },
+    {
+     "name": "ansi-regex",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.1.1",
+     "env": "dev",
+     "parent": [
+      "gulp-util",
+      "gulp-util@>=3.0.0 <4.0.0-0",
+      "gulp-util@^3.0.1",
+      "gulp-util@~2.2.0",
+      "has-ansi"
+     ]
+    },
+    {
+     "name": "ansi-styles",
+     "requirement": "^1.1.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "chalk"
+     ]
+    },
+    {
+     "name": "ansi-styles",
+     "requirement": "^2.2.1",
+     "resolved_requirement": "2.2.1",
+     "env": "dev",
+     "parent": [
+      "chalk",
+      "gulp-util",
+      "gulp-util@>=3.0.0 <4.0.0-0",
+      "gulp-util@^3.0.1",
+      "gulp-util@~2.2.0"
+     ]
+    },
+    {
+     "name": "ansi-wrap",
+     "requirement": "0.1.0",
+     "resolved_requirement": "0.1.0",
+     "env": "dev",
+     "parent": [
+      "ansi-gray"
+     ]
+    },
+    {
+     "name": "archy",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "arr-diff",
+     "requirement": "^4.0.0",
+     "resolved_requirement": "4.0.0",
+     "env": "dev",
+     "parent": [
+      "micromatch"
+     ]
+    },
+    {
+     "name": "arr-flatten",
+     "requirement": "^1.1.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "arr-union",
+     "requirement": "^3.1.0",
+     "resolved_requirement": "3.1.0",
+     "env": "dev",
+     "parent": [
+      "class-utils"
+     ]
+    },
+    {
+     "name": "array-differ",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "array-each",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "object.defaults"
+     ]
+    },
+    {
+     "name": "array-find-index",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "currently-unhandled"
+     ]
+    },
+    {
+     "name": "array-slice",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "object.defaults"
+     ]
+    },
+    {
+     "name": "array-uniq",
+     "requirement": "^1.0.2",
+     "resolved_requirement": "1.0.3",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "array-unique",
+     "requirement": "^0.3.2",
+     "resolved_requirement": "0.3.2",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "assign-symbols",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "extend-shallow"
+     ]
+    },
+    {
+     "name": "async",
+     "requirement": "~0.2.6",
+     "resolved_requirement": "0.2.10",
+     "env": "dev",
+     "parent": [
+      "uglify-js"
+     ]
+    },
+    {
+     "name": "atob",
+     "requirement": "^2.1.1",
+     "resolved_requirement": "2.1.2",
+     "env": "dev",
+     "parent": [
+      "source-map-resolve"
+     ]
+    },
+    {
+     "name": "balanced-match",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "brace-expansion"
+     ]
+    },
+    {
+     "name": "base",
+     "requirement": "^0.11.1",
+     "resolved_requirement": "0.11.2",
+     "env": "dev",
+     "parent": [
+      "snapdragon"
+     ]
+    },
+    {
+     "name": "beeper",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.1",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "brace-expansion",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.11",
+     "env": "dev",
+     "parent": [
+      "minimatch"
+     ]
+    },
+    {
+     "name": "braces",
+     "requirement": "^2.3.1",
+     "resolved_requirement": "2.3.2",
+     "env": "dev",
+     "parent": [
+      "micromatch"
+     ]
+    },
+    {
+     "name": "builtin-modules",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.1",
+     "env": "dev",
+     "parent": [
+      "is-builtin-module"
+     ]
+    },
+    {
+     "name": "cache-base",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "base"
+     ]
+    },
+    {
+     "name": "camelcase-keys",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.1.0",
+     "env": "dev",
+     "parent": [
+      "meow"
+     ]
+    },
+    {
+     "name": "camelcase",
+     "resolved_requirement": "1.2.1",
+     "env": "dev",
+     "parent": [
+      "yargs"
+     ]
+    },
+    {
+     "name": "camelcase",
+     "requirement": "^1.0.2",
+     "resolved_requirement": "2.1.1",
+     "env": "dev",
+     "parent": [
+      "camelcase-keys",
+      "yargs"
+     ]
+    },
+    {
+     "name": "camelcase",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.1.1",
+     "env": "dev",
+     "parent": [
+      "camelcase-keys"
+     ]
+    },
+    {
+     "name": "chalk",
+     "resolved_requirement": "1.1.3",
+     "env": "dev",
+     "parent": [
+      "gulp-util",
+      "gulp-util@>=3.0.0 <4.0.0-0",
+      "gulp-util@^3.0.1",
+      "gulp-util@~2.2.0"
+     ]
+    },
+    {
+     "name": "chalk",
+     "requirement": "^0.5.0",
+     "resolved_requirement": "0.5.1",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "chalk",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "0.5.1",
+     "env": "dev",
+     "parent": [
+      "gulp",
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "class-utils",
+     "requirement": "^0.3.5",
+     "resolved_requirement": "0.3.6",
+     "env": "dev",
+     "parent": [
+      "base"
+     ]
+    },
+    {
+     "name": "clean-css",
+     "requirement": "^3.1.9",
+     "resolved_requirement": "3.4.28",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin"
+     ]
+    },
+    {
+     "name": "clone-stats",
+     "requirement": "^0.0.1",
+     "resolved_requirement": "0.0.1",
+     "env": "dev",
+     "parent": [
+      "vinyl"
+     ]
+    },
+    {
+     "name": "clone",
+     "requirement": "^0.2.0",
+     "resolved_requirement": "0.2.0",
+     "env": "dev",
+     "parent": [
+      "vinyl",
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "clone",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.4",
+     "env": "dev",
+     "parent": [
+      "vinyl"
+     ]
+    },
+    {
+     "name": "clone",
+     "requirement": "^1.0.2",
+     "resolved_requirement": "1.0.4",
+     "env": "dev",
+     "parent": [
+      "defaults",
+      "vinyl"
+     ]
+    },
+    {
+     "name": "collection-visit",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "cache-base"
+     ]
+    },
+    {
+     "name": "color-support",
+     "requirement": "^1.1.3",
+     "resolved_requirement": "1.1.3",
+     "env": "dev",
+     "parent": [
+      "fancy-log"
+     ]
+    },
+    {
+     "name": "commander",
+     "requirement": "2.8.x",
+     "resolved_requirement": "2.8.1",
+     "env": "dev",
+     "parent": [
+      "clean-css"
+     ]
+    },
+    {
+     "name": "component-emitter",
+     "requirement": "^1.2.1",
+     "resolved_requirement": "1.2.1",
+     "env": "dev",
+     "parent": [
+      "base"
+     ]
+    },
+    {
+     "name": "concat-map",
+     "requirement": "0.0.1",
+     "resolved_requirement": "0.0.1",
+     "env": "dev",
+     "parent": [
+      "brace-expansion"
+     ]
+    },
+    {
+     "name": "concat-with-sourcemaps",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "gulp-concat"
+     ]
+    },
+    {
+     "name": "copy-descriptor",
+     "requirement": "^0.1.0",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "object-copy"
+     ]
+    },
+    {
+     "name": "core-util-is",
+     "requirement": "~1.0.0",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "readable-stream"
+     ]
+    },
+    {
+     "name": "currently-unhandled",
+     "requirement": "^0.4.1",
+     "resolved_requirement": "0.4.1",
+     "env": "dev",
+     "parent": [
+      "loud-rejection"
+     ]
+    },
+    {
+     "name": "dateformat",
+     "requirement": "^1.0.7-1.2.3",
+     "resolved_requirement": "1.0.12",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "dateformat",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.2.0",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "deap",
+     "requirement": ">=1.0.0 <2.0.0-0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "gulp-uglify"
+     ]
+    },
+    {
+     "name": "debug",
+     "requirement": "^2.2.0",
+     "resolved_requirement": "2.6.9",
+     "env": "dev",
+     "parent": [
+      "expand-brackets",
+      "snapdragon"
+     ]
+    },
+    {
+     "name": "debug",
+     "requirement": "^2.3.3",
+     "resolved_requirement": "2.6.9",
+     "env": "dev",
+     "parent": [
+      "expand-brackets"
+     ]
+    },
+    {
+     "name": "decamelize",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.2.0",
+     "env": "dev",
+     "parent": [
+      "meow",
+      "yargs"
+     ]
+    },
+    {
+     "name": "decamelize",
+     "requirement": "^1.1.2",
+     "resolved_requirement": "1.2.0",
+     "env": "dev",
+     "parent": [
+      "meow"
+     ]
+    },
+    {
+     "name": "decode-uri-component",
+     "requirement": "^0.2.0",
+     "resolved_requirement": "0.2.0",
+     "env": "dev",
+     "parent": [
+      "source-map-resolve"
+     ]
+    },
+    {
+     "name": "defaults",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.3",
+     "env": "dev",
+     "parent": [
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "define-property",
+     "resolved_requirement": "0.2.5",
+     "env": "dev",
+     "parent": [
+      "class-utils"
+     ]
+    },
+    {
+     "name": "define-property",
+     "resolved_requirement": "0.2.5",
+     "env": "dev",
+     "parent": [
+      "expand-brackets"
+     ]
+    },
+    {
+     "name": "define-property",
+     "resolved_requirement": "0.2.5",
+     "env": "dev",
+     "parent": [
+      "object-copy"
+     ]
+    },
+    {
+     "name": "define-property",
+     "resolved_requirement": "0.2.5",
+     "env": "dev",
+     "parent": [
+      "snapdragon"
+     ]
+    },
+    {
+     "name": "define-property",
+     "resolved_requirement": "0.2.5",
+     "env": "dev",
+     "parent": [
+      "static-extend"
+     ]
+    },
+    {
+     "name": "define-property",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "base"
+     ]
+    },
+    {
+     "name": "define-property",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "extglob"
+     ]
+    },
+    {
+     "name": "define-property",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "snapdragon-node"
+     ]
+    },
+    {
+     "name": "define-property",
+     "requirement": "^0.2.5",
+     "resolved_requirement": "2.0.2",
+     "env": "dev",
+     "parent": [
+      "base",
+      "class-utils"
+     ]
+    },
+    {
+     "name": "define-property",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "2.0.2",
+     "env": "dev",
+     "parent": [
+      "base"
+     ]
+    },
+    {
+     "name": "define-property",
+     "requirement": "^2.0.2",
+     "resolved_requirement": "2.0.2",
+     "env": "dev",
+     "parent": [
+      "base",
+      "micromatch"
+     ]
+    },
+    {
+     "name": "deprecated",
+     "requirement": "^0.0.1",
+     "resolved_requirement": "0.0.1",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "detect-file",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "findup-sync"
+     ]
+    },
+    {
+     "name": "duplexer2",
+     "requirement": "0.0.2",
+     "resolved_requirement": "0.0.2",
+     "env": "dev",
+     "parent": [
+      "multipipe"
+     ]
+    },
+    {
+     "name": "end-of-stream",
+     "requirement": "~0.1.5",
+     "resolved_requirement": "0.1.5",
+     "env": "dev",
+     "parent": [
+      "orchestrator"
+     ]
+    },
+    {
+     "name": "error-ex",
+     "requirement": "^1.2.0",
+     "resolved_requirement": "1.3.2",
+     "env": "dev",
+     "parent": [
+      "parse-json"
+     ]
+    },
+    {
+     "name": "escape-string-regexp",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.5",
+     "env": "dev",
+     "parent": [
+      "chalk"
+     ]
+    },
+    {
+     "name": "expand-brackets",
+     "requirement": "^2.1.4",
+     "resolved_requirement": "2.1.4",
+     "env": "dev",
+     "parent": [
+      "extglob"
+     ]
+    },
+    {
+     "name": "expand-tilde",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.2",
+     "env": "dev",
+     "parent": [
+      "fined",
+      "resolve-dir"
+     ]
+    },
+    {
+     "name": "expand-tilde",
+     "requirement": "^2.0.2",
+     "resolved_requirement": "2.0.2",
+     "env": "dev",
+     "parent": [
+      "fined"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "expand-brackets"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "extglob"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "fill-range"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "set-value",
+      "set-value@^0.4.3"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "snapdragon"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "requirement": "^2.0.1",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "set-value",
+      "union-value"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "requirement": "^2.0.1",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "braces",
+      "split-string"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "requirement": "^3.0.2",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "braces",
+      "micromatch"
+     ]
+    },
+    {
+     "name": "extend",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "liftoff"
+     ]
+    },
+    {
+     "name": "extglob",
+     "requirement": "^2.0.4",
+     "resolved_requirement": "2.0.4",
+     "env": "dev",
+     "parent": [
+      "micromatch"
+     ]
+    },
+    {
+     "name": "fancy-log",
+     "requirement": "^1.1.0",
+     "resolved_requirement": "1.3.2",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "filesize",
+     "requirement": "~2.0.0",
+     "resolved_requirement": "2.0.4",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin"
+     ]
+    },
+    {
+     "name": "fill-range",
+     "requirement": "^4.0.0",
+     "resolved_requirement": "4.0.0",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "find-index",
+     "requirement": "^0.1.1",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "glob2base"
+     ]
+    },
+    {
+     "name": "find-up",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.2",
+     "env": "dev",
+     "parent": [
+      "read-pkg-up"
+     ]
+    },
+    {
+     "name": "findup-sync",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "dev",
+     "parent": [
+      "liftoff"
+     ]
+    },
+    {
+     "name": "fined",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "liftoff"
+     ]
+    },
+    {
+     "name": "first-chunk-stream",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "strip-bom"
+     ]
+    },
+    {
+     "name": "flagged-respawn",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "liftoff"
+     ]
+    },
+    {
+     "name": "for-in",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "for-own"
+     ]
+    },
+    {
+     "name": "for-in",
+     "requirement": "^1.0.2",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "for-own",
+      "mixin-deep"
+     ]
+    },
+    {
+     "name": "for-own",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "object.defaults"
+     ]
+    },
+    {
+     "name": "fragment-cache",
+     "requirement": "^0.2.1",
+     "resolved_requirement": "0.2.1",
+     "env": "dev",
+     "parent": [
+      "extglob"
+     ]
+    },
+    {
+     "name": "gaze",
+     "requirement": "^0.5.1",
+     "resolved_requirement": "0.5.2",
+     "env": "dev",
+     "parent": [
+      "glob-watcher"
+     ]
+    },
+    {
+     "name": "get-stdin",
+     "requirement": "^4.0.1",
+     "resolved_requirement": "4.0.1",
+     "env": "dev",
+     "parent": [
+      "strip-indent"
+     ]
+    },
+    {
+     "name": "get-value",
+     "requirement": "^2.0.6",
+     "resolved_requirement": "2.0.6",
+     "env": "dev",
+     "parent": [
+      "cache-base"
+     ]
+    },
+    {
+     "name": "glob-stream",
+     "requirement": "^3.1.5",
+     "resolved_requirement": "3.1.18",
+     "env": "dev",
+     "parent": [
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "glob-watcher",
+     "requirement": "^0.0.6",
+     "resolved_requirement": "0.0.6",
+     "env": "dev",
+     "parent": [
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "glob2base",
+     "requirement": "^0.0.12",
+     "resolved_requirement": "0.0.12",
+     "env": "dev",
+     "parent": [
+      "glob-stream"
+     ]
+    },
+    {
+     "name": "glob",
+     "resolved_requirement": "3.1.21",
+     "env": "dev",
+     "parent": [
+      "globule"
+     ]
+    },
+    {
+     "name": "glob",
+     "requirement": "^4.3.1",
+     "resolved_requirement": "4.5.3",
+     "env": "dev",
+     "parent": [
+      "glob-stream"
+     ]
+    },
+    {
+     "name": "glob",
+     "requirement": "~3.1.21",
+     "resolved_requirement": "4.5.3",
+     "env": "dev",
+     "parent": [
+      "glob-stream",
+      "globule"
+     ]
+    },
+    {
+     "name": "global-modules",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "resolve-dir"
+     ]
+    },
+    {
+     "name": "global-prefix",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "global-modules"
+     ]
+    },
+    {
+     "name": "globule",
+     "requirement": "~0.1.0",
+     "resolved_requirement": "0.1.0",
+     "env": "dev",
+     "parent": [
+      "gaze"
+     ]
+    },
+    {
+     "name": "glogg",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "gulplog"
+     ]
+    },
+    {
+     "name": "graceful-fs",
+     "resolved_requirement": "2.0.3",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin"
+     ]
+    },
+    {
+     "name": "graceful-fs",
+     "resolved_requirement": "2.0.3",
+     "env": "dev",
+     "parent": [
+      "temp-write"
+     ]
+    },
+    {
+     "name": "graceful-fs",
+     "resolved_requirement": "4.1.15",
+     "env": "dev",
+     "parent": [
+      "load-json-file"
+     ]
+    },
+    {
+     "name": "graceful-fs",
+     "resolved_requirement": "4.1.15",
+     "env": "dev",
+     "parent": [
+      "path-type"
+     ]
+    },
+    {
+     "name": "graceful-fs",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.11",
+     "env": "dev",
+     "parent": [
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "graceful-fs",
+     "requirement": "^4.1.2",
+     "resolved_requirement": "3.0.11",
+     "env": "dev",
+     "parent": [
+      "load-json-file",
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "graceful-fs",
+     "requirement": "~1.2.0",
+     "resolved_requirement": "1.2.3",
+     "env": "dev",
+     "parent": [
+      "glob",
+      "globule"
+     ]
+    },
+    {
+     "name": "graceful-fs",
+     "requirement": "~2.0.0",
+     "resolved_requirement": "3.0.11",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "graceful-readlink",
+     "requirement": ">= 1.0.0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "commander"
+     ]
+    },
+    {
+     "name": "gulp-concat",
+     "resolved_requirement": "2.5.2",
+     "env": "dev"
+    },
+    {
+     "name": "gulp-cssmin",
+     "resolved_requirement": "0.1.7",
+     "env": "dev"
+    },
+    {
+     "name": "gulp-rename",
+     "requirement": "~1.1.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin"
+     ]
+    },
+    {
+     "name": "gulp-uglify",
+     "resolved_requirement": "1.2.0",
+     "env": "dev"
+    },
+    {
+     "name": "gulp-util",
+     "requirement": ">=3.0.0 <4.0.0-0",
+     "resolved_requirement": "3.0.8",
+     "env": "dev",
+     "parent": [
+      "gulp",
+      "gulp-uglify"
+     ]
+    },
+    {
+     "name": "gulp-util",
+     "resolved_requirement": "2.2.20",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin"
+     ]
+    },
+    {
+     "name": "gulp-util",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.8",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "gulp-util",
+     "requirement": "^3.0.1",
+     "resolved_requirement": "3.0.8",
+     "env": "dev",
+     "parent": [
+      "gulp",
+      "gulp-concat"
+     ]
+    },
+    {
+     "name": "gulp-util",
+     "requirement": "~2.2.0",
+     "resolved_requirement": "3.0.8",
+     "env": "dev",
+     "parent": [
+      "gulp",
+      "gulp-cssmin"
+     ]
+    },
+    {
+     "name": "gulp",
+     "resolved_requirement": "3.8.11",
+     "env": "dev"
+    },
+    {
+     "name": "gulplog",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "has-ansi",
+     "requirement": "^0.1.0",
+     "resolved_requirement": "0.1.0",
+     "env": "dev",
+     "parent": [
+      "chalk"
+     ]
+    },
+    {
+     "name": "has-ansi",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "dev",
+     "parent": [
+      "chalk",
+      "gulp-util",
+      "gulp-util@>=3.0.0 <4.0.0-0",
+      "gulp-util@^3.0.1",
+      "gulp-util@~2.2.0"
+     ]
+    },
+    {
+     "name": "has-gulplog",
+     "requirement": "^0.1.0",
+     "resolved_requirement": "0.1.0",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "has-value",
+     "resolved_requirement": "0.3.1",
+     "env": "dev",
+     "parent": [
+      "unset-value"
+     ]
+    },
+    {
+     "name": "has-value",
+     "requirement": "^0.3.1",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "unset-value"
+     ]
+    },
+    {
+     "name": "has-value",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "cache-base",
+      "unset-value"
+     ]
+    },
+    {
+     "name": "has-values",
+     "requirement": "^0.1.4",
+     "resolved_requirement": "0.1.4",
+     "env": "dev",
+     "parent": [
+      "has-value",
+      "unset-value"
+     ]
+    },
+    {
+     "name": "has-values",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "has-value"
+     ]
+    },
+    {
+     "name": "homedir-polyfill",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "expand-tilde"
+     ]
+    },
+    {
+     "name": "hosted-git-info",
+     "requirement": "^2.1.4",
+     "resolved_requirement": "2.7.1",
+     "env": "dev",
+     "parent": [
+      "normalize-package-data"
+     ]
+    },
+    {
+     "name": "indent-string",
+     "requirement": "^2.1.0",
+     "resolved_requirement": "2.1.0",
+     "env": "dev",
+     "parent": [
+      "redent"
+     ]
+    },
+    {
+     "name": "inflight",
+     "requirement": "^1.0.4",
+     "resolved_requirement": "1.0.6",
+     "env": "dev",
+     "parent": [
+      "glob"
+     ]
+    },
+    {
+     "name": "inherits",
+     "requirement": "1",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "glob",
+      "globule"
+     ]
+    },
+    {
+     "name": "inherits",
+     "requirement": "2",
+     "resolved_requirement": "2.0.3",
+     "env": "dev",
+     "parent": [
+      "glob"
+     ]
+    },
+    {
+     "name": "inherits",
+     "requirement": "~2.0.1",
+     "resolved_requirement": "2.0.3",
+     "env": "dev",
+     "parent": [
+      "glob",
+      "readable-stream"
+     ]
+    },
+    {
+     "name": "ini",
+     "requirement": "^1.3.4",
+     "resolved_requirement": "1.3.5",
+     "env": "dev",
+     "parent": [
+      "global-prefix"
+     ]
+    },
+    {
+     "name": "interpret",
+     "requirement": "^0.3.2",
+     "resolved_requirement": "0.3.10",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "is-absolute",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "parse-filepath"
+     ]
+    },
+    {
+     "name": "is-accessor-descriptor",
+     "requirement": "^0.1.6",
+     "resolved_requirement": "0.1.6",
+     "env": "dev",
+     "parent": [
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "is-accessor-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "base",
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "is-accessor-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "define-property",
+      "define-property@^0.2.5",
+      "define-property@^2.0.2",
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "is-accessor-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "extglob",
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "is-accessor-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "is-descriptor",
+      "snapdragon-node"
+     ]
+    },
+    {
+     "name": "is-arrayish",
+     "requirement": "^0.2.1",
+     "resolved_requirement": "0.2.1",
+     "env": "dev",
+     "parent": [
+      "error-ex"
+     ]
+    },
+    {
+     "name": "is-buffer",
+     "resolved_requirement": "1.1.6",
+     "env": "dev"
+    },
+    {
+     "name": "is-builtin-module",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "normalize-package-data"
+     ]
+    },
+    {
+     "name": "is-data-descriptor",
+     "requirement": "^0.1.4",
+     "resolved_requirement": "0.1.4",
+     "env": "dev",
+     "parent": [
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "is-data-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "base",
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "is-data-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "define-property",
+      "define-property@^0.2.5",
+      "define-property@^2.0.2",
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "is-data-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "extglob",
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "is-data-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "is-descriptor",
+      "snapdragon-node"
+     ]
+    },
+    {
+     "name": "is-descriptor",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "define-property",
+      "define-property@^0.2.5",
+      "define-property@^2.0.2"
+     ]
+    },
+    {
+     "name": "is-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "base",
+      "define-property"
+     ]
+    },
+    {
+     "name": "is-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "define-property",
+      "extglob"
+     ]
+    },
+    {
+     "name": "is-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "define-property",
+      "snapdragon-node"
+     ]
+    },
+    {
+     "name": "is-descriptor",
+     "requirement": "^1.0.2",
+     "resolved_requirement": "0.1.6",
+     "env": "dev",
+     "parent": [
+      "define-property"
+     ]
+    },
+    {
+     "name": "is-extendable",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "extend-shallow",
+      "extend-shallow@^3.0.0",
+      "extend-shallow@^3.0.2"
+     ]
+    },
+    {
+     "name": "is-extendable",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "mixin-deep"
+     ]
+    },
+    {
+     "name": "is-extendable",
+     "requirement": "^0.1.1",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "extend-shallow",
+      "set-value"
+     ]
+    },
+    {
+     "name": "is-extendable",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "extend-shallow"
+     ]
+    },
+    {
+     "name": "is-extglob",
+     "requirement": "^2.1.0",
+     "resolved_requirement": "2.1.1",
+     "env": "dev",
+     "parent": [
+      "is-glob"
+     ]
+    },
+    {
+     "name": "is-finite",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "repeating"
+     ]
+    },
+    {
+     "name": "is-glob",
+     "requirement": "^3.1.0",
+     "resolved_requirement": "3.1.0",
+     "env": "dev",
+     "parent": [
+      "findup-sync"
+     ]
+    },
+    {
+     "name": "is-number",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "fill-range"
+     ]
+    },
+    {
+     "name": "is-plain-object",
+     "requirement": "^2.0.3",
+     "resolved_requirement": "2.0.4",
+     "env": "dev",
+     "parent": [
+      "fined"
+     ]
+    },
+    {
+     "name": "is-plain-object",
+     "requirement": "^2.0.4",
+     "resolved_requirement": "2.0.4",
+     "env": "dev",
+     "parent": [
+      "fined",
+      "liftoff"
+     ]
+    },
+    {
+     "name": "is-relative",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "is-absolute"
+     ]
+    },
+    {
+     "name": "is-unc-path",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "is-relative"
+     ]
+    },
+    {
+     "name": "is-utf8",
+     "requirement": "^0.2.0",
+     "resolved_requirement": "0.2.1",
+     "env": "dev",
+     "parent": [
+      "strip-bom"
+     ]
+    },
+    {
+     "name": "is-windows",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "global-modules"
+     ]
+    },
+    {
+     "name": "is-windows",
+     "requirement": "^1.0.2",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "global-modules",
+      "nanomatch"
+     ]
+    },
+    {
+     "name": "isarray",
+     "requirement": "0.0.1",
+     "resolved_requirement": "0.0.1",
+     "env": "dev",
+     "parent": [
+      "readable-stream"
+     ]
+    },
+    {
+     "name": "isarray",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "unset-value"
+     ]
+    },
+    {
+     "name": "isarray",
+     "requirement": "~1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "readable-stream",
+      "through2",
+      "through2@>=0.6.1 <1.0.0-0",
+      "through2@^0.6.1",
+      "through2@^2.0.0"
+     ]
+    },
+    {
+     "name": "isexe",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "dev",
+     "parent": [
+      "which"
+     ]
+    },
+    {
+     "name": "isobject",
+     "resolved_requirement": "2.1.0",
+     "env": "dev",
+     "parent": [
+      "has-value"
+     ]
+    },
+    {
+     "name": "isobject",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.1",
+     "env": "dev",
+     "parent": [
+      "base",
+      "class-utils"
+     ]
+    },
+    {
+     "name": "isobject",
+     "requirement": "^3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "dev",
+     "parent": [
+      "base"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "resolved_requirement": "3.2.2",
+     "env": "dev",
+     "parent": [
+      "is-accessor-descriptor"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "resolved_requirement": "3.2.2",
+     "env": "dev",
+     "parent": [
+      "is-data-descriptor"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "resolved_requirement": "3.2.2",
+     "env": "dev",
+     "parent": [
+      "is-number"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "resolved_requirement": "3.2.2",
+     "env": "dev",
+     "parent": [
+      "object-copy"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "resolved_requirement": "3.2.2",
+     "env": "dev",
+     "parent": [
+      "snapdragon-util"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "resolved_requirement": "3.2.2",
+     "env": "dev",
+     "parent": [
+      "to-object-path"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "resolved_requirement": "4.0.0",
+     "env": "dev",
+     "parent": [
+      "has-values"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "resolved_requirement": "5.1.0",
+     "env": "dev",
+     "parent": [
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "requirement": "^3.0.2",
+     "resolved_requirement": "6.0.2",
+     "env": "dev",
+     "parent": [
+      "is-accessor-descriptor",
+      "make-iterator"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "requirement": "^3.0.3",
+     "resolved_requirement": "6.0.2",
+     "env": "dev",
+     "parent": [
+      "make-iterator",
+      "object-copy"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "requirement": "^3.2.0",
+     "resolved_requirement": "6.0.2",
+     "env": "dev",
+     "parent": [
+      "make-iterator",
+      "snapdragon-util"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "requirement": "^4.0.0",
+     "resolved_requirement": "6.0.2",
+     "env": "dev",
+     "parent": [
+      "has-values",
+      "make-iterator"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "requirement": "^5.0.0",
+     "resolved_requirement": "6.0.2",
+     "env": "dev",
+     "parent": [
+      "is-descriptor",
+      "make-iterator"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "requirement": "^6.0.2",
+     "resolved_requirement": "6.0.2",
+     "env": "dev",
+     "parent": [
+      "make-iterator"
+     ]
+    },
+    {
+     "name": "liftoff",
+     "requirement": "^2.0.1",
+     "resolved_requirement": "2.5.0",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "load-json-file",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "read-pkg"
+     ]
+    },
+    {
+     "name": "lodash._basecopy",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.1",
+     "env": "dev",
+     "parent": [
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash._basetostring",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.1",
+     "env": "dev",
+     "parent": [
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash._basevalues",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash._escapehtmlchar",
+     "resolved_requirement": "2.4.1",
+     "env": "dev"
+    },
+    {
+     "name": "lodash._escapestringchar",
+     "resolved_requirement": "2.4.1",
+     "env": "dev"
+    },
+    {
+     "name": "lodash._getnative",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.9.1",
+     "env": "dev",
+     "parent": [
+      "lodash.keys"
+     ]
+    },
+    {
+     "name": "lodash._htmlescapes",
+     "requirement": "~2.4.1",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "lodash._escapehtmlchar"
+     ]
+    },
+    {
+     "name": "lodash._isiterateecall",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.9",
+     "env": "dev",
+     "parent": [
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash._isnative",
+     "resolved_requirement": "2.4.1",
+     "env": "dev"
+    },
+    {
+     "name": "lodash._objecttypes",
+     "requirement": "~2.4.1",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "lodash._shimkeys"
+     ]
+    },
+    {
+     "name": "lodash._reescape",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "lodash._reevaluate",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "lodash._reinterpolate",
+     "requirement": "^2.4.1",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "lodash._reinterpolate",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "lodash._reinterpolate",
+     "requirement": "~2.4.1",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "gulp-util",
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash._reunescapedhtml",
+     "resolved_requirement": "2.4.1",
+     "env": "dev"
+    },
+    {
+     "name": "lodash._root",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.1",
+     "env": "dev",
+     "parent": [
+      "lodash.escape"
+     ]
+    },
+    {
+     "name": "lodash._shimkeys",
+     "resolved_requirement": "2.4.1",
+     "env": "dev"
+    },
+    {
+     "name": "lodash.defaults",
+     "resolved_requirement": "2.4.1",
+     "env": "dev"
+    },
+    {
+     "name": "lodash.escape",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.2.0",
+     "env": "dev",
+     "parent": [
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash.escape",
+     "requirement": "~2.4.1",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash.isarguments",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.1.0",
+     "env": "dev",
+     "parent": [
+      "lodash.keys"
+     ]
+    },
+    {
+     "name": "lodash.isarray",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.4",
+     "env": "dev",
+     "parent": [
+      "lodash.keys"
+     ]
+    },
+    {
+     "name": "lodash.isobject",
+     "resolved_requirement": "2.4.1",
+     "env": "dev"
+    },
+    {
+     "name": "lodash.keys",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "lodash._reunescapedhtml"
+     ]
+    },
+    {
+     "name": "lodash.keys",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "lodash.defaults"
+     ]
+    },
+    {
+     "name": "lodash.keys",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "lodash.values"
+     ]
+    },
+    {
+     "name": "lodash.keys",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.1.2",
+     "env": "dev",
+     "parent": [
+      "lodash._reunescapedhtml",
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash.keys",
+     "requirement": "~2.4.1",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "lodash.escape"
+     ]
+    },
+    {
+     "name": "lodash.keys",
+     "requirement": "~2.4.1",
+     "resolved_requirement": "3.1.2",
+     "env": "dev",
+     "parent": [
+      "lodash._reunescapedhtml"
+     ]
+    },
+    {
+     "name": "lodash.restparam",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.6.1",
+     "env": "dev",
+     "parent": [
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash.template",
+     "requirement": "^2.4.1",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "lodash.template",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.6.2",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "lodash.templatesettings",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.1.1",
+     "env": "dev",
+     "parent": [
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash.templatesettings",
+     "requirement": "~2.4.1",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash.values",
+     "resolved_requirement": "2.4.1",
+     "env": "dev"
+    },
+    {
+     "name": "lodash",
+     "requirement": "~1.0.1",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "globule"
+     ]
+    },
+    {
+     "name": "loud-rejection",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.6.0",
+     "env": "dev",
+     "parent": [
+      "meow"
+     ]
+    },
+    {
+     "name": "lru-cache",
+     "resolved_requirement": "2.7.3",
+     "env": "dev"
+    },
+    {
+     "name": "make-iterator",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "object.map"
+     ]
+    },
+    {
+     "name": "map-cache",
+     "requirement": "^0.2.0",
+     "resolved_requirement": "0.2.2",
+     "env": "dev",
+     "parent": [
+      "fragment-cache",
+      "parse-filepath"
+     ]
+    },
+    {
+     "name": "map-cache",
+     "requirement": "^0.2.2",
+     "resolved_requirement": "0.2.2",
+     "env": "dev",
+     "parent": [
+      "fragment-cache"
+     ]
+    },
+    {
+     "name": "map-obj",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "camelcase-keys",
+      "meow"
+     ]
+    },
+    {
+     "name": "map-obj",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "meow"
+     ]
+    },
+    {
+     "name": "map-stream",
+     "requirement": "0.0.4",
+     "resolved_requirement": "0.0.4",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin"
+     ]
+    },
+    {
+     "name": "map-stream",
+     "requirement": ">=0.0.4",
+     "resolved_requirement": "0.0.4",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "gulp-rename"
+     ]
+    },
+    {
+     "name": "map-visit",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "collection-visit"
+     ]
+    },
+    {
+     "name": "meow",
+     "resolved_requirement": "3.7.0",
+     "env": "dev"
+    },
+    {
+     "name": "micromatch",
+     "requirement": "^3.0.4",
+     "resolved_requirement": "3.1.10",
+     "env": "dev",
+     "parent": [
+      "findup-sync"
+     ]
+    },
+    {
+     "name": "minimatch",
+     "requirement": "^2.0.1",
+     "resolved_requirement": "2.0.10",
+     "env": "dev",
+     "parent": [
+      "glob"
+     ]
+    },
+    {
+     "name": "minimatch",
+     "requirement": "~0.2.11",
+     "resolved_requirement": "0.2.14",
+     "env": "dev",
+     "parent": [
+      "glob",
+      "globule"
+     ]
+    },
+    {
+     "name": "minimatch",
+     "requirement": "~0.2.11",
+     "resolved_requirement": "2.0.10",
+     "env": "dev",
+     "parent": [
+      "glob",
+      "globule"
+     ]
+    },
+    {
+     "name": "minimist",
+     "requirement": "0.0.8",
+     "resolved_requirement": "1.2.0",
+     "env": "dev",
+     "parent": [
+      "meow",
+      "mkdirp"
+     ]
+    },
+    {
+     "name": "minimist",
+     "resolved_requirement": "0.0.8",
+     "env": "dev",
+     "parent": [
+      "mkdirp"
+     ]
+    },
+    {
+     "name": "minimist",
+     "requirement": "^0.2.0",
+     "resolved_requirement": "0.2.0",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "minimist",
+     "requirement": "^1.1.0",
+     "resolved_requirement": "1.2.0",
+     "env": "dev",
+     "parent": [
+      "gulp",
+      "meow"
+     ]
+    },
+    {
+     "name": "minimist",
+     "requirement": "^1.1.3",
+     "resolved_requirement": "1.2.0",
+     "env": "dev",
+     "parent": [
+      "meow"
+     ]
+    },
+    {
+     "name": "mixin-deep",
+     "requirement": "^1.2.0",
+     "resolved_requirement": "1.3.1",
+     "env": "dev",
+     "parent": [
+      "base"
+     ]
+    },
+    {
+     "name": "mkdirp",
+     "requirement": "^0.5.0",
+     "resolved_requirement": "0.5.1",
+     "env": "dev",
+     "parent": [
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "ms",
+     "requirement": "2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "dev",
+     "parent": [
+      "debug"
+     ]
+    },
+    {
+     "name": "multipipe",
+     "requirement": "^0.1.2",
+     "resolved_requirement": "0.1.2",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "nanomatch",
+     "requirement": "^1.2.9",
+     "resolved_requirement": "1.2.13",
+     "env": "dev",
+     "parent": [
+      "micromatch"
+     ]
+    },
+    {
+     "name": "natives",
+     "requirement": "^1.1.0",
+     "resolved_requirement": "1.1.6",
+     "env": "dev",
+     "parent": [
+      "graceful-fs"
+     ]
+    },
+    {
+     "name": "normalize-package-data",
+     "requirement": "^2.3.2",
+     "resolved_requirement": "2.4.0",
+     "env": "dev",
+     "parent": [
+      "meow",
+      "read-pkg"
+     ]
+    },
+    {
+     "name": "normalize-package-data",
+     "requirement": "^2.3.4",
+     "resolved_requirement": "2.4.0",
+     "env": "dev",
+     "parent": [
+      "meow"
+     ]
+    },
+    {
+     "name": "number-is-nan",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "is-finite"
+     ]
+    },
+    {
+     "name": "object-assign",
+     "resolved_requirement": "4.1.1",
+     "env": "dev",
+     "parent": [
+      "meow"
+     ]
+    },
+    {
+     "name": "object-assign",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "object-assign",
+     "requirement": "^4.0.1",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "gulp-util",
+      "meow"
+     ]
+    },
+    {
+     "name": "object-copy",
+     "requirement": "^0.1.0",
+     "resolved_requirement": "0.1.0",
+     "env": "dev",
+     "parent": [
+      "static-extend"
+     ]
+    },
+    {
+     "name": "object-visit",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "collection-visit"
+     ]
+    },
+    {
+     "name": "object.defaults",
+     "requirement": "^1.1.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "fined"
+     ]
+    },
+    {
+     "name": "object.map",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "liftoff"
+     ]
+    },
+    {
+     "name": "object.pick",
+     "requirement": "^1.2.0",
+     "resolved_requirement": "1.3.0",
+     "env": "dev",
+     "parent": [
+      "fined",
+      "micromatch"
+     ]
+    },
+    {
+     "name": "object.pick",
+     "requirement": "^1.3.0",
+     "resolved_requirement": "1.3.0",
+     "env": "dev",
+     "parent": [
+      "micromatch"
+     ]
+    },
+    {
+     "name": "once",
+     "requirement": "^1.3.0",
+     "resolved_requirement": "1.3.3",
+     "env": "dev",
+     "parent": [
+      "end-of-stream",
+      "glob"
+     ]
+    },
+    {
+     "name": "once",
+     "requirement": "~1.3.0",
+     "resolved_requirement": "1.3.3",
+     "env": "dev",
+     "parent": [
+      "end-of-stream"
+     ]
+    },
+    {
+     "name": "orchestrator",
+     "requirement": "^0.3.0",
+     "resolved_requirement": "0.3.8",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "ordered-read-streams",
+     "requirement": "^0.1.0",
+     "resolved_requirement": "0.1.0",
+     "env": "dev",
+     "parent": [
+      "glob-stream"
+     ]
+    },
+    {
+     "name": "os-homedir",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "tildify"
+     ]
+    },
+    {
+     "name": "parse-filepath",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "fined"
+     ]
+    },
+    {
+     "name": "parse-json",
+     "requirement": "^2.2.0",
+     "resolved_requirement": "2.2.0",
+     "env": "dev",
+     "parent": [
+      "load-json-file"
+     ]
+    },
+    {
+     "name": "parse-passwd",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "homedir-polyfill"
+     ]
+    },
+    {
+     "name": "pascalcase",
+     "requirement": "^0.1.1",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "base"
+     ]
+    },
+    {
+     "name": "path-exists",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.1.0",
+     "env": "dev",
+     "parent": [
+      "find-up"
+     ]
+    },
+    {
+     "name": "path-parse",
+     "requirement": "^1.0.5",
+     "resolved_requirement": "1.0.6",
+     "env": "dev",
+     "parent": [
+      "resolve"
+     ]
+    },
+    {
+     "name": "path-root-regex",
+     "requirement": "^0.1.0",
+     "resolved_requirement": "0.1.2",
+     "env": "dev",
+     "parent": [
+      "path-root"
+     ]
+    },
+    {
+     "name": "path-root",
+     "requirement": "^0.1.1",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "parse-filepath"
+     ]
+    },
+    {
+     "name": "path-type",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "read-pkg"
+     ]
+    },
+    {
+     "name": "pify",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.3.0",
+     "env": "dev",
+     "parent": [
+      "load-json-file"
+     ]
+    },
+    {
+     "name": "pinkie-promise",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "find-up"
+     ]
+    },
+    {
+     "name": "pinkie",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.4",
+     "env": "dev",
+     "parent": [
+      "pinkie-promise"
+     ]
+    },
+    {
+     "name": "posix-character-classes",
+     "requirement": "^0.1.0",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "expand-brackets"
+     ]
+    },
+    {
+     "name": "pretty-hrtime",
+     "requirement": "^0.2.0",
+     "resolved_requirement": "0.2.2",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "process-nextick-args",
+     "resolved_requirement": "2.0.0",
+     "env": "dev"
+    },
+    {
+     "name": "read-pkg-up",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "meow"
+     ]
+    },
+    {
+     "name": "read-pkg",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "read-pkg-up"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "requirement": ">=1.0.33-1 <1.1.0-0",
+     "resolved_requirement": "1.0.34",
+     "env": "dev",
+     "parent": [
+      "glob-stream",
+      "through2"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "requirement": ">=1.0.33-1 <1.1.0-0",
+     "resolved_requirement": "1.0.34",
+     "env": "dev",
+     "parent": [
+      "gulp-concat",
+      "through2"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "requirement": ">=1.0.33-1 <1.1.0-0",
+     "resolved_requirement": "1.0.34",
+     "env": "dev",
+     "parent": [
+      "gulp-uglify",
+      "through2"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "requirement": ">=1.0.33-1 <1.1.0-0",
+     "resolved_requirement": "1.0.34",
+     "env": "dev",
+     "parent": [
+      "through2",
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "resolved_requirement": "2.3.6",
+     "env": "dev",
+     "parent": [
+      "through2",
+      "through2@>=0.6.1 <1.0.0-0",
+      "through2@^0.6.1",
+      "through2@^2.0.0"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "requirement": "^2.1.5",
+     "resolved_requirement": "1.1.14",
+     "env": "dev",
+     "parent": [
+      "duplexer2",
+      "through2"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "requirement": "~1.0.17",
+     "resolved_requirement": "1.0.34",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "through2"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "requirement": "~1.1.9",
+     "resolved_requirement": "1.1.14",
+     "env": "dev",
+     "parent": [
+      "duplexer2"
+     ]
+    },
+    {
+     "name": "rechoir",
+     "requirement": "^0.6.2",
+     "resolved_requirement": "0.6.2",
+     "env": "dev",
+     "parent": [
+      "liftoff"
+     ]
+    },
+    {
+     "name": "redent",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "meow"
+     ]
+    },
+    {
+     "name": "regex-not",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "expand-brackets"
+     ]
+    },
+    {
+     "name": "regex-not",
+     "requirement": "^1.0.2",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "expand-brackets",
+      "to-regex"
+     ]
+    },
+    {
+     "name": "repeat-element",
+     "requirement": "^1.1.2",
+     "resolved_requirement": "1.1.3",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "repeat-string",
+     "requirement": "^1.6.1",
+     "resolved_requirement": "1.6.1",
+     "env": "dev",
+     "parent": [
+      "fill-range"
+     ]
+    },
+    {
+     "name": "repeating",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "indent-string"
+     ]
+    },
+    {
+     "name": "replace-ext",
+     "requirement": "0.0.1",
+     "resolved_requirement": "0.0.1",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "resolve-dir",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "findup-sync",
+      "global-modules"
+     ]
+    },
+    {
+     "name": "resolve-dir",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "findup-sync"
+     ]
+    },
+    {
+     "name": "resolve-url",
+     "requirement": "^0.2.1",
+     "resolved_requirement": "0.2.1",
+     "env": "dev",
+     "parent": [
+      "source-map-resolve"
+     ]
+    },
+    {
+     "name": "resolve",
+     "requirement": "^1.1.6",
+     "resolved_requirement": "1.8.1",
+     "env": "dev",
+     "parent": [
+      "liftoff",
+      "rechoir"
+     ]
+    },
+    {
+     "name": "resolve",
+     "requirement": "^1.1.7",
+     "resolved_requirement": "1.8.1",
+     "env": "dev",
+     "parent": [
+      "liftoff"
+     ]
+    },
+    {
+     "name": "ret",
+     "requirement": "~0.1.10",
+     "resolved_requirement": "0.1.15",
+     "env": "dev",
+     "parent": [
+      "safe-regex"
+     ]
+    },
+    {
+     "name": "rimraf",
+     "resolved_requirement": "2.2.8",
+     "env": "dev"
+    },
+    {
+     "name": "safe-buffer",
+     "resolved_requirement": "5.1.2",
+     "env": "dev"
+    },
+    {
+     "name": "safe-regex",
+     "requirement": "^1.1.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "regex-not"
+     ]
+    },
+    {
+     "name": "semver",
+     "requirement": "2 || 3 || 4 || 5",
+     "resolved_requirement": "4.3.6",
+     "env": "dev",
+     "parent": [
+      "gulp",
+      "normalize-package-data"
+     ]
+    },
+    {
+     "name": "semver",
+     "requirement": "^4.1.0",
+     "resolved_requirement": "4.3.6",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "sequencify",
+     "requirement": "~0.0.7",
+     "resolved_requirement": "0.0.7",
+     "env": "dev",
+     "parent": [
+      "orchestrator"
+     ]
+    },
+    {
+     "name": "set-value",
+     "resolved_requirement": "0.4.3",
+     "env": "dev",
+     "parent": [
+      "union-value"
+     ]
+    },
+    {
+     "name": "set-value",
+     "requirement": "^0.4.3",
+     "resolved_requirement": "2.0.0",
+     "env": "dev",
+     "parent": [
+      "cache-base",
+      "union-value"
+     ]
+    },
+    {
+     "name": "set-value",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "dev",
+     "parent": [
+      "cache-base"
+     ]
+    },
+    {
+     "name": "sigmund",
+     "resolved_requirement": "1.0.1",
+     "env": "dev"
+    },
+    {
+     "name": "signal-exit",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "loud-rejection"
+     ]
+    },
+    {
+     "name": "snapdragon-node",
+     "requirement": "^2.0.1",
+     "resolved_requirement": "2.1.1",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "snapdragon-util",
+     "requirement": "^3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "dev",
+     "parent": [
+      "snapdragon-node"
+     ]
+    },
+    {
+     "name": "snapdragon",
+     "requirement": "^0.8.1",
+     "resolved_requirement": "0.8.2",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "source-map-resolve",
+     "requirement": "^0.5.0",
+     "resolved_requirement": "0.5.2",
+     "env": "dev",
+     "parent": [
+      "snapdragon"
+     ]
+    },
+    {
+     "name": "source-map-url",
+     "requirement": "^0.4.0",
+     "resolved_requirement": "0.4.0",
+     "env": "dev",
+     "parent": [
+      "source-map-resolve"
+     ]
+    },
+    {
+     "name": "source-map",
+     "requirement": "0.1.34",
+     "resolved_requirement": "0.5.7",
+     "env": "dev",
+     "parent": [
+      "uglify-js",
+      "vinyl-sourcemaps-apply"
+     ]
+    },
+    {
+     "name": "source-map",
+     "requirement": "0.4.x",
+     "resolved_requirement": "0.5.7",
+     "env": "dev",
+     "parent": [
+      "clean-css",
+      "vinyl-sourcemaps-apply"
+     ]
+    },
+    {
+     "name": "source-map",
+     "resolved_requirement": "0.1.34",
+     "env": "dev",
+     "parent": [
+      "uglify-js"
+     ]
+    },
+    {
+     "name": "source-map",
+     "resolved_requirement": "0.1.43",
+     "env": "dev",
+     "parent": [
+      "vinyl-sourcemaps-apply"
+     ]
+    },
+    {
+     "name": "source-map",
+     "resolved_requirement": "0.4.4",
+     "env": "dev",
+     "parent": [
+      "clean-css"
+     ]
+    },
+    {
+     "name": "source-map",
+     "resolved_requirement": "0.6.1",
+     "env": "dev",
+     "parent": [
+      "concat-with-sourcemaps"
+     ]
+    },
+    {
+     "name": "source-map",
+     "requirement": "^0.1.39",
+     "resolved_requirement": "0.5.7",
+     "env": "dev",
+     "parent": [
+      "vinyl-sourcemaps-apply"
+     ]
+    },
+    {
+     "name": "source-map",
+     "requirement": "^0.5.6",
+     "resolved_requirement": "0.5.7",
+     "env": "dev",
+     "parent": [
+      "snapdragon",
+      "vinyl-sourcemaps-apply"
+     ]
+    },
+    {
+     "name": "source-map",
+     "requirement": "^0.6.1",
+     "resolved_requirement": "0.5.7",
+     "env": "dev",
+     "parent": [
+      "concat-with-sourcemaps",
+      "vinyl-sourcemaps-apply"
+     ]
+    },
+    {
+     "name": "sparkles",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "glogg"
+     ]
+    },
+    {
+     "name": "spdx-correct",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "validate-npm-package-license"
+     ]
+    },
+    {
+     "name": "spdx-exceptions",
+     "requirement": "^2.1.0",
+     "resolved_requirement": "2.2.0",
+     "env": "dev",
+     "parent": [
+      "spdx-expression-parse"
+     ]
+    },
+    {
+     "name": "spdx-expression-parse",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "spdx-correct"
+     ]
+    },
+    {
+     "name": "spdx-license-ids",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "spdx-correct"
+     ]
+    },
+    {
+     "name": "split-string",
+     "requirement": "^3.0.1",
+     "resolved_requirement": "3.1.0",
+     "env": "dev",
+     "parent": [
+      "braces",
+      "set-value"
+     ]
+    },
+    {
+     "name": "split-string",
+     "requirement": "^3.0.2",
+     "resolved_requirement": "3.1.0",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "static-extend",
+     "requirement": "^0.1.1",
+     "resolved_requirement": "0.1.2",
+     "env": "dev",
+     "parent": [
+      "class-utils"
+     ]
+    },
+    {
+     "name": "stream-consume",
+     "requirement": "~0.1.0",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "orchestrator"
+     ]
+    },
+    {
+     "name": "string_decoder",
+     "requirement": "~0.10.x",
+     "resolved_requirement": "0.10.31",
+     "env": "dev",
+     "parent": [
+      "readable-stream"
+     ]
+    },
+    {
+     "name": "string_decoder",
+     "requirement": "~1.1.1",
+     "resolved_requirement": "1.1.1",
+     "env": "dev",
+     "parent": [
+      "readable-stream",
+      "through2",
+      "through2@>=0.6.1 <1.0.0-0",
+      "through2@^0.6.1",
+      "through2@^2.0.0"
+     ]
+    },
+    {
+     "name": "strip-ansi",
+     "requirement": "^0.3.0",
+     "resolved_requirement": "0.3.0",
+     "env": "dev",
+     "parent": [
+      "chalk"
+     ]
+    },
+    {
+     "name": "strip-ansi",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.1",
+     "env": "dev",
+     "parent": [
+      "chalk",
+      "gulp-util",
+      "gulp-util@>=3.0.0 <4.0.0-0",
+      "gulp-util@^3.0.1",
+      "gulp-util@~2.2.0"
+     ]
+    },
+    {
+     "name": "strip-bom",
+     "resolved_requirement": "2.0.0",
+     "env": "dev",
+     "parent": [
+      "load-json-file"
+     ]
+    },
+    {
+     "name": "strip-bom",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "load-json-file",
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "strip-bom",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "load-json-file"
+     ]
+    },
+    {
+     "name": "strip-indent",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "redent"
+     ]
+    },
+    {
+     "name": "supports-color",
+     "requirement": "^0.2.0",
+     "resolved_requirement": "0.2.0",
+     "env": "dev",
+     "parent": [
+      "chalk"
+     ]
+    },
+    {
+     "name": "supports-color",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "dev",
+     "parent": [
+      "chalk",
+      "gulp-util",
+      "gulp-util@>=3.0.0 <4.0.0-0",
+      "gulp-util@^3.0.1",
+      "gulp-util@~2.2.0"
+     ]
+    },
+    {
+     "name": "temp-write",
+     "requirement": "~0.1.0",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin"
+     ]
+    },
+    {
+     "name": "tempfile",
+     "requirement": "~0.1.2",
+     "resolved_requirement": "0.1.3",
+     "env": "dev",
+     "parent": [
+      "temp-write"
+     ]
+    },
+    {
+     "name": "through2",
+     "requirement": ">=0.6.1 <1.0.0-0",
+     "resolved_requirement": "2.0.3",
+     "env": "dev",
+     "parent": [
+      "gulp-concat",
+      "gulp-uglify"
+     ]
+    },
+    {
+     "name": "through2",
+     "resolved_requirement": "0.6.5",
+     "env": "dev",
+     "parent": [
+      "glob-stream"
+     ]
+    },
+    {
+     "name": "through2",
+     "resolved_requirement": "0.6.5",
+     "env": "dev",
+     "parent": [
+      "gulp-concat"
+     ]
+    },
+    {
+     "name": "through2",
+     "resolved_requirement": "0.6.5",
+     "env": "dev",
+     "parent": [
+      "gulp-uglify"
+     ]
+    },
+    {
+     "name": "through2",
+     "resolved_requirement": "0.6.5",
+     "env": "dev",
+     "parent": [
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "through2",
+     "requirement": "^0.5.0",
+     "resolved_requirement": "0.5.1",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "through2",
+     "requirement": "^0.6.1",
+     "resolved_requirement": "2.0.3",
+     "env": "dev",
+     "parent": [
+      "glob-stream",
+      "gulp-concat"
+     ]
+    },
+    {
+     "name": "through2",
+     "requirement": "^0.6.3",
+     "resolved_requirement": "2.0.3",
+     "env": "dev",
+     "parent": [
+      "gulp-concat"
+     ]
+    },
+    {
+     "name": "through2",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.3",
+     "env": "dev",
+     "parent": [
+      "gulp-concat",
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "tildify",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.2.0",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "time-stamp",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "fancy-log"
+     ]
+    },
+    {
+     "name": "to-object-path",
+     "requirement": "^0.3.0",
+     "resolved_requirement": "0.3.0",
+     "env": "dev",
+     "parent": [
+      "cache-base"
+     ]
+    },
+    {
+     "name": "to-regex-range",
+     "requirement": "^2.1.0",
+     "resolved_requirement": "2.1.1",
+     "env": "dev",
+     "parent": [
+      "fill-range"
+     ]
+    },
+    {
+     "name": "to-regex",
+     "requirement": "^3.0.1",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "to-regex",
+     "requirement": "^3.0.2",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "braces",
+      "micromatch"
+     ]
+    },
+    {
+     "name": "trim-newlines",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "meow"
+     ]
+    },
+    {
+     "name": "uglify-js",
+     "requirement": "2.4.19",
+     "resolved_requirement": "2.4.19",
+     "env": "dev",
+     "parent": [
+      "gulp-uglify"
+     ]
+    },
+    {
+     "name": "uglify-to-browserify",
+     "requirement": "~1.0.0",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "uglify-js"
+     ]
+    },
+    {
+     "name": "unc-path-regex",
+     "requirement": "^0.1.2",
+     "resolved_requirement": "0.1.2",
+     "env": "dev",
+     "parent": [
+      "is-unc-path"
+     ]
+    },
+    {
+     "name": "union-value",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "cache-base"
+     ]
+    },
+    {
+     "name": "unique-stream",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "glob-stream"
+     ]
+    },
+    {
+     "name": "unset-value",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "cache-base"
+     ]
+    },
+    {
+     "name": "urix",
+     "requirement": "^0.1.0",
+     "resolved_requirement": "0.1.0",
+     "env": "dev",
+     "parent": [
+      "source-map-resolve"
+     ]
+    },
+    {
+     "name": "use",
+     "requirement": "^3.1.0",
+     "resolved_requirement": "3.1.1",
+     "env": "dev",
+     "parent": [
+      "snapdragon"
+     ]
+    },
+    {
+     "name": "user-home",
+     "requirement": "^1.1.1",
+     "resolved_requirement": "1.1.1",
+     "env": "dev",
+     "parent": [
+      "v8flags"
+     ]
+    },
+    {
+     "name": "util-deprecate",
+     "resolved_requirement": "1.0.2",
+     "env": "dev"
+    },
+    {
+     "name": "uuid",
+     "requirement": "~1.4.0",
+     "resolved_requirement": "1.4.2",
+     "env": "dev",
+     "parent": [
+      "tempfile"
+     ]
+    },
+    {
+     "name": "v8flags",
+     "requirement": "^2.0.2",
+     "resolved_requirement": "2.1.1",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "validate-npm-package-license",
+     "requirement": "^3.0.1",
+     "resolved_requirement": "3.0.4",
+     "env": "dev",
+     "parent": [
+      "normalize-package-data"
+     ]
+    },
+    {
+     "name": "vinyl-fs",
+     "requirement": "^0.3.0",
+     "resolved_requirement": "0.3.14",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "vinyl-sourcemaps-apply",
+     "requirement": ">=0.1.1 <0.2.0-0",
+     "resolved_requirement": "0.1.4",
+     "env": "dev",
+     "parent": [
+      "gulp-uglify"
+     ]
+    },
+    {
+     "name": "vinyl",
+     "resolved_requirement": "0.4.6",
+     "env": "dev",
+     "parent": [
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "vinyl",
+     "requirement": "^0.2.1",
+     "resolved_requirement": "0.2.3",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "vinyl",
+     "requirement": "^0.4.0",
+     "resolved_requirement": "0.5.3",
+     "env": "dev",
+     "parent": [
+      "gulp-util",
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "vinyl",
+     "requirement": "^0.5.0",
+     "resolved_requirement": "0.5.3",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "which",
+     "requirement": "^1.2.14",
+     "resolved_requirement": "1.3.1",
+     "env": "dev",
+     "parent": [
+      "global-prefix"
+     ]
+    },
+    {
+     "name": "window-size",
+     "requirement": "0.1.0",
+     "resolved_requirement": "0.1.0",
+     "env": "dev",
+     "parent": [
+      "yargs"
+     ]
+    },
+    {
+     "name": "wordwrap",
+     "requirement": "0.0.2",
+     "resolved_requirement": "0.0.2",
+     "env": "dev",
+     "parent": [
+      "yargs"
+     ]
+    },
+    {
+     "name": "wrappy",
+     "requirement": "1",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "inflight"
+     ]
+    },
+    {
+     "name": "xtend",
+     "requirement": "~3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "through2"
+     ]
+    },
+    {
+     "name": "xtend",
+     "requirement": "~4.0.1",
+     "resolved_requirement": "4.0.1",
+     "env": "dev",
+     "parent": [
+      "through2"
+     ]
+    },
+    {
+     "name": "yargs",
+     "requirement": "~3.5.4",
+     "resolved_requirement": "3.5.4",
+     "env": "dev",
+     "parent": [
+      "uglify-js"
+     ]
+    }
+   ],
+   "kind": "lockfile",
+   "related": [
+    "samples/Clients/old/MvcImplicit/package.json"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "samples/Clients/old/MvcImplicit/package.json",
+  "type": "file",
+  "name": "package.json",
+  "extension": ".json",
+  "result": {
+   "platform": "npm",
+   "dependencies": [
+    {
+     "name": "gulp-concat",
+     "requirement": "2.5.2",
+     "resolved_requirement": "2.5.2",
+     "env": "dev"
+    },
+    {
+     "name": "gulp-cssmin",
+     "requirement": "0.1.7",
+     "resolved_requirement": "0.1.7",
+     "env": "dev"
+    },
+    {
+     "name": "gulp-uglify",
+     "requirement": "1.2.0",
+     "resolved_requirement": "1.2.0",
+     "env": "dev"
+    },
+    {
+     "name": "gulp",
+     "requirement": "3.8.11",
+     "resolved_requirement": "3.8.11",
+     "env": "dev"
+    },
+    {
+     "name": "rimraf",
+     "requirement": "2.2.8",
+     "resolved_requirement": "2.2.8",
+     "env": "dev"
+    }
+   ],
+   "kind": "manifest",
+   "related": [
+    "samples/Clients/old/MvcImplicit/package-lock.json"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "samples/Clients/old/MvcImplicitJwtRequest/MvcImplicitJwtRequest.csproj",
+  "type": "file",
+  "name": "MvcImplicitJwtRequest.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Authentication.OpenIdConnect",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Clients/old/MvcImplicitJwtRequest/package-lock.json",
+  "type": "file",
+  "name": "package-lock.json",
+  "extension": ".json",
+  "result": {
+   "platform": "npm",
+   "dependencies": [
+    {
+     "name": "amdefine",
+     "resolved_requirement": "1.0.1",
+     "env": "dev"
+    },
+    {
+     "name": "ansi-gray",
+     "requirement": "^0.1.1",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "fancy-log"
+     ]
+    },
+    {
+     "name": "ansi-regex",
+     "requirement": "^0.2.0",
+     "resolved_requirement": "0.2.1",
+     "env": "dev",
+     "parent": [
+      "has-ansi"
+     ]
+    },
+    {
+     "name": "ansi-regex",
+     "requirement": "^0.2.1",
+     "resolved_requirement": "0.2.1",
+     "env": "dev",
+     "parent": [
+      "has-ansi",
+      "strip-ansi"
+     ]
+    },
+    {
+     "name": "ansi-regex",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.1.1",
+     "env": "dev",
+     "parent": [
+      "gulp-util",
+      "gulp-util@>=3.0.0 <4.0.0-0",
+      "gulp-util@^3.0.1",
+      "gulp-util@~2.2.0",
+      "has-ansi"
+     ]
+    },
+    {
+     "name": "ansi-styles",
+     "requirement": "^1.1.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "chalk"
+     ]
+    },
+    {
+     "name": "ansi-styles",
+     "requirement": "^2.2.1",
+     "resolved_requirement": "2.2.1",
+     "env": "dev",
+     "parent": [
+      "chalk",
+      "gulp-util",
+      "gulp-util@>=3.0.0 <4.0.0-0",
+      "gulp-util@^3.0.1",
+      "gulp-util@~2.2.0"
+     ]
+    },
+    {
+     "name": "ansi-wrap",
+     "requirement": "0.1.0",
+     "resolved_requirement": "0.1.0",
+     "env": "dev",
+     "parent": [
+      "ansi-gray"
+     ]
+    },
+    {
+     "name": "archy",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "arr-diff",
+     "requirement": "^4.0.0",
+     "resolved_requirement": "4.0.0",
+     "env": "dev",
+     "parent": [
+      "micromatch"
+     ]
+    },
+    {
+     "name": "arr-flatten",
+     "requirement": "^1.1.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "arr-union",
+     "requirement": "^3.1.0",
+     "resolved_requirement": "3.1.0",
+     "env": "dev",
+     "parent": [
+      "class-utils"
+     ]
+    },
+    {
+     "name": "array-differ",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "array-each",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "object.defaults"
+     ]
+    },
+    {
+     "name": "array-find-index",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "currently-unhandled"
+     ]
+    },
+    {
+     "name": "array-slice",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "object.defaults"
+     ]
+    },
+    {
+     "name": "array-uniq",
+     "requirement": "^1.0.2",
+     "resolved_requirement": "1.0.3",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "array-unique",
+     "requirement": "^0.3.2",
+     "resolved_requirement": "0.3.2",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "assign-symbols",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "extend-shallow"
+     ]
+    },
+    {
+     "name": "async",
+     "requirement": "~0.2.6",
+     "resolved_requirement": "0.2.10",
+     "env": "dev",
+     "parent": [
+      "uglify-js"
+     ]
+    },
+    {
+     "name": "atob",
+     "requirement": "^2.1.1",
+     "resolved_requirement": "2.1.2",
+     "env": "dev",
+     "parent": [
+      "source-map-resolve"
+     ]
+    },
+    {
+     "name": "balanced-match",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "brace-expansion"
+     ]
+    },
+    {
+     "name": "base",
+     "requirement": "^0.11.1",
+     "resolved_requirement": "0.11.2",
+     "env": "dev",
+     "parent": [
+      "snapdragon"
+     ]
+    },
+    {
+     "name": "beeper",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.1",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "brace-expansion",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.11",
+     "env": "dev",
+     "parent": [
+      "minimatch"
+     ]
+    },
+    {
+     "name": "braces",
+     "requirement": "^2.3.1",
+     "resolved_requirement": "2.3.2",
+     "env": "dev",
+     "parent": [
+      "micromatch"
+     ]
+    },
+    {
+     "name": "builtin-modules",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.1",
+     "env": "dev",
+     "parent": [
+      "is-builtin-module"
+     ]
+    },
+    {
+     "name": "cache-base",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "base"
+     ]
+    },
+    {
+     "name": "camelcase-keys",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.1.0",
+     "env": "dev",
+     "parent": [
+      "meow"
+     ]
+    },
+    {
+     "name": "camelcase",
+     "resolved_requirement": "1.2.1",
+     "env": "dev",
+     "parent": [
+      "yargs"
+     ]
+    },
+    {
+     "name": "camelcase",
+     "requirement": "^1.0.2",
+     "resolved_requirement": "2.1.1",
+     "env": "dev",
+     "parent": [
+      "camelcase-keys",
+      "yargs"
+     ]
+    },
+    {
+     "name": "camelcase",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.1.1",
+     "env": "dev",
+     "parent": [
+      "camelcase-keys"
+     ]
+    },
+    {
+     "name": "chalk",
+     "resolved_requirement": "1.1.3",
+     "env": "dev",
+     "parent": [
+      "gulp-util",
+      "gulp-util@>=3.0.0 <4.0.0-0",
+      "gulp-util@^3.0.1",
+      "gulp-util@~2.2.0"
+     ]
+    },
+    {
+     "name": "chalk",
+     "requirement": "^0.5.0",
+     "resolved_requirement": "0.5.1",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "chalk",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "0.5.1",
+     "env": "dev",
+     "parent": [
+      "gulp",
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "class-utils",
+     "requirement": "^0.3.5",
+     "resolved_requirement": "0.3.6",
+     "env": "dev",
+     "parent": [
+      "base"
+     ]
+    },
+    {
+     "name": "clean-css",
+     "requirement": "^3.1.9",
+     "resolved_requirement": "3.4.28",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin"
+     ]
+    },
+    {
+     "name": "clone-stats",
+     "requirement": "^0.0.1",
+     "resolved_requirement": "0.0.1",
+     "env": "dev",
+     "parent": [
+      "vinyl"
+     ]
+    },
+    {
+     "name": "clone",
+     "requirement": "^0.2.0",
+     "resolved_requirement": "0.2.0",
+     "env": "dev",
+     "parent": [
+      "vinyl",
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "clone",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.4",
+     "env": "dev",
+     "parent": [
+      "defaults",
+      "vinyl"
+     ]
+    },
+    {
+     "name": "clone",
+     "requirement": "^1.0.2",
+     "resolved_requirement": "1.0.4",
+     "env": "dev",
+     "parent": [
+      "defaults"
+     ]
+    },
+    {
+     "name": "collection-visit",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "cache-base"
+     ]
+    },
+    {
+     "name": "color-support",
+     "requirement": "^1.1.3",
+     "resolved_requirement": "1.1.3",
+     "env": "dev",
+     "parent": [
+      "fancy-log"
+     ]
+    },
+    {
+     "name": "commander",
+     "requirement": "2.8.x",
+     "resolved_requirement": "2.8.1",
+     "env": "dev",
+     "parent": [
+      "clean-css"
+     ]
+    },
+    {
+     "name": "component-emitter",
+     "requirement": "^1.2.1",
+     "resolved_requirement": "1.2.1",
+     "env": "dev",
+     "parent": [
+      "base"
+     ]
+    },
+    {
+     "name": "concat-map",
+     "requirement": "0.0.1",
+     "resolved_requirement": "0.0.1",
+     "env": "dev",
+     "parent": [
+      "brace-expansion"
+     ]
+    },
+    {
+     "name": "concat-with-sourcemaps",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "gulp-concat"
+     ]
+    },
+    {
+     "name": "copy-descriptor",
+     "requirement": "^0.1.0",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "object-copy"
+     ]
+    },
+    {
+     "name": "core-util-is",
+     "requirement": "~1.0.0",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "readable-stream"
+     ]
+    },
+    {
+     "name": "currently-unhandled",
+     "requirement": "^0.4.1",
+     "resolved_requirement": "0.4.1",
+     "env": "dev",
+     "parent": [
+      "loud-rejection"
+     ]
+    },
+    {
+     "name": "dateformat",
+     "requirement": "^1.0.7-1.2.3",
+     "resolved_requirement": "1.0.12",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "dateformat",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.2.0",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "deap",
+     "requirement": ">=1.0.0 <2.0.0-0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "gulp-uglify"
+     ]
+    },
+    {
+     "name": "debug",
+     "requirement": "^2.2.0",
+     "resolved_requirement": "2.6.9",
+     "env": "dev",
+     "parent": [
+      "expand-brackets",
+      "snapdragon"
+     ]
+    },
+    {
+     "name": "debug",
+     "requirement": "^2.3.3",
+     "resolved_requirement": "2.6.9",
+     "env": "dev",
+     "parent": [
+      "expand-brackets"
+     ]
+    },
+    {
+     "name": "decamelize",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.2.0",
+     "env": "dev",
+     "parent": [
+      "meow",
+      "yargs"
+     ]
+    },
+    {
+     "name": "decamelize",
+     "requirement": "^1.1.2",
+     "resolved_requirement": "1.2.0",
+     "env": "dev",
+     "parent": [
+      "meow"
+     ]
+    },
+    {
+     "name": "decode-uri-component",
+     "requirement": "^0.2.0",
+     "resolved_requirement": "0.2.0",
+     "env": "dev",
+     "parent": [
+      "source-map-resolve"
+     ]
+    },
+    {
+     "name": "defaults",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.3",
+     "env": "dev",
+     "parent": [
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "define-property",
+     "resolved_requirement": "0.2.5",
+     "env": "dev",
+     "parent": [
+      "class-utils"
+     ]
+    },
+    {
+     "name": "define-property",
+     "resolved_requirement": "0.2.5",
+     "env": "dev",
+     "parent": [
+      "expand-brackets"
+     ]
+    },
+    {
+     "name": "define-property",
+     "resolved_requirement": "0.2.5",
+     "env": "dev",
+     "parent": [
+      "object-copy"
+     ]
+    },
+    {
+     "name": "define-property",
+     "resolved_requirement": "0.2.5",
+     "env": "dev",
+     "parent": [
+      "snapdragon"
+     ]
+    },
+    {
+     "name": "define-property",
+     "resolved_requirement": "0.2.5",
+     "env": "dev",
+     "parent": [
+      "static-extend"
+     ]
+    },
+    {
+     "name": "define-property",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "base"
+     ]
+    },
+    {
+     "name": "define-property",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "extglob"
+     ]
+    },
+    {
+     "name": "define-property",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "snapdragon-node"
+     ]
+    },
+    {
+     "name": "define-property",
+     "requirement": "^0.2.5",
+     "resolved_requirement": "2.0.2",
+     "env": "dev",
+     "parent": [
+      "base",
+      "class-utils"
+     ]
+    },
+    {
+     "name": "define-property",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "2.0.2",
+     "env": "dev",
+     "parent": [
+      "base"
+     ]
+    },
+    {
+     "name": "define-property",
+     "requirement": "^2.0.2",
+     "resolved_requirement": "2.0.2",
+     "env": "dev",
+     "parent": [
+      "base",
+      "micromatch"
+     ]
+    },
+    {
+     "name": "deprecated",
+     "requirement": "^0.0.1",
+     "resolved_requirement": "0.0.1",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "detect-file",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "findup-sync"
+     ]
+    },
+    {
+     "name": "duplexer2",
+     "requirement": "0.0.2",
+     "resolved_requirement": "0.0.2",
+     "env": "dev",
+     "parent": [
+      "multipipe"
+     ]
+    },
+    {
+     "name": "end-of-stream",
+     "requirement": "~0.1.5",
+     "resolved_requirement": "0.1.5",
+     "env": "dev",
+     "parent": [
+      "orchestrator"
+     ]
+    },
+    {
+     "name": "error-ex",
+     "requirement": "^1.2.0",
+     "resolved_requirement": "1.3.2",
+     "env": "dev",
+     "parent": [
+      "parse-json"
+     ]
+    },
+    {
+     "name": "escape-string-regexp",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.5",
+     "env": "dev",
+     "parent": [
+      "chalk"
+     ]
+    },
+    {
+     "name": "expand-brackets",
+     "requirement": "^2.1.4",
+     "resolved_requirement": "2.1.4",
+     "env": "dev",
+     "parent": [
+      "extglob"
+     ]
+    },
+    {
+     "name": "expand-tilde",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.2",
+     "env": "dev",
+     "parent": [
+      "fined",
+      "resolve-dir"
+     ]
+    },
+    {
+     "name": "expand-tilde",
+     "requirement": "^2.0.2",
+     "resolved_requirement": "2.0.2",
+     "env": "dev",
+     "parent": [
+      "fined"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "expand-brackets"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "extglob"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "fill-range"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "set-value",
+      "set-value@^0.4.3"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "snapdragon"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "requirement": "^2.0.1",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "set-value",
+      "union-value"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "requirement": "^2.0.1",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "braces",
+      "micromatch"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "micromatch",
+      "split-string"
+     ]
+    },
+    {
+     "name": "extend-shallow",
+     "requirement": "^3.0.2",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "micromatch"
+     ]
+    },
+    {
+     "name": "extend",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "liftoff"
+     ]
+    },
+    {
+     "name": "extglob",
+     "requirement": "^2.0.4",
+     "resolved_requirement": "2.0.4",
+     "env": "dev",
+     "parent": [
+      "micromatch"
+     ]
+    },
+    {
+     "name": "fancy-log",
+     "requirement": "^1.1.0",
+     "resolved_requirement": "1.3.2",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "filesize",
+     "requirement": "~2.0.0",
+     "resolved_requirement": "2.0.4",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin"
+     ]
+    },
+    {
+     "name": "fill-range",
+     "requirement": "^4.0.0",
+     "resolved_requirement": "4.0.0",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "find-index",
+     "requirement": "^0.1.1",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "glob2base"
+     ]
+    },
+    {
+     "name": "find-up",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.2",
+     "env": "dev",
+     "parent": [
+      "read-pkg-up"
+     ]
+    },
+    {
+     "name": "findup-sync",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "dev",
+     "parent": [
+      "liftoff"
+     ]
+    },
+    {
+     "name": "fined",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "liftoff"
+     ]
+    },
+    {
+     "name": "first-chunk-stream",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "strip-bom"
+     ]
+    },
+    {
+     "name": "flagged-respawn",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "liftoff"
+     ]
+    },
+    {
+     "name": "for-in",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "for-own",
+      "mixin-deep"
+     ]
+    },
+    {
+     "name": "for-in",
+     "requirement": "^1.0.2",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "mixin-deep"
+     ]
+    },
+    {
+     "name": "for-own",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "object.defaults"
+     ]
+    },
+    {
+     "name": "fragment-cache",
+     "requirement": "^0.2.1",
+     "resolved_requirement": "0.2.1",
+     "env": "dev",
+     "parent": [
+      "extglob"
+     ]
+    },
+    {
+     "name": "gaze",
+     "requirement": "^0.5.1",
+     "resolved_requirement": "0.5.2",
+     "env": "dev",
+     "parent": [
+      "glob-watcher"
+     ]
+    },
+    {
+     "name": "get-stdin",
+     "requirement": "^4.0.1",
+     "resolved_requirement": "4.0.1",
+     "env": "dev",
+     "parent": [
+      "strip-indent"
+     ]
+    },
+    {
+     "name": "get-value",
+     "requirement": "^2.0.6",
+     "resolved_requirement": "2.0.6",
+     "env": "dev",
+     "parent": [
+      "cache-base"
+     ]
+    },
+    {
+     "name": "glob-stream",
+     "requirement": "^3.1.5",
+     "resolved_requirement": "3.1.18",
+     "env": "dev",
+     "parent": [
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "glob-watcher",
+     "requirement": "^0.0.6",
+     "resolved_requirement": "0.0.6",
+     "env": "dev",
+     "parent": [
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "glob2base",
+     "requirement": "^0.0.12",
+     "resolved_requirement": "0.0.12",
+     "env": "dev",
+     "parent": [
+      "glob-stream"
+     ]
+    },
+    {
+     "name": "glob",
+     "resolved_requirement": "3.1.21",
+     "env": "dev",
+     "parent": [
+      "globule"
+     ]
+    },
+    {
+     "name": "glob",
+     "requirement": "^4.3.1",
+     "resolved_requirement": "4.5.3",
+     "env": "dev",
+     "parent": [
+      "glob-stream"
+     ]
+    },
+    {
+     "name": "glob",
+     "requirement": "~3.1.21",
+     "resolved_requirement": "4.5.3",
+     "env": "dev",
+     "parent": [
+      "glob-stream",
+      "globule"
+     ]
+    },
+    {
+     "name": "global-modules",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "resolve-dir"
+     ]
+    },
+    {
+     "name": "global-prefix",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "global-modules"
+     ]
+    },
+    {
+     "name": "globule",
+     "requirement": "~0.1.0",
+     "resolved_requirement": "0.1.0",
+     "env": "dev",
+     "parent": [
+      "gaze"
+     ]
+    },
+    {
+     "name": "glogg",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "gulplog"
+     ]
+    },
+    {
+     "name": "graceful-fs",
+     "resolved_requirement": "2.0.3",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin"
+     ]
+    },
+    {
+     "name": "graceful-fs",
+     "resolved_requirement": "2.0.3",
+     "env": "dev",
+     "parent": [
+      "temp-write"
+     ]
+    },
+    {
+     "name": "graceful-fs",
+     "resolved_requirement": "4.1.15",
+     "env": "dev",
+     "parent": [
+      "load-json-file"
+     ]
+    },
+    {
+     "name": "graceful-fs",
+     "resolved_requirement": "4.1.15",
+     "env": "dev",
+     "parent": [
+      "path-type"
+     ]
+    },
+    {
+     "name": "graceful-fs",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.11",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "graceful-fs",
+     "requirement": "^4.1.2",
+     "resolved_requirement": "3.0.11",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "load-json-file"
+     ]
+    },
+    {
+     "name": "graceful-fs",
+     "requirement": "~1.2.0",
+     "resolved_requirement": "1.2.3",
+     "env": "dev",
+     "parent": [
+      "glob",
+      "globule"
+     ]
+    },
+    {
+     "name": "graceful-fs",
+     "requirement": "~2.0.0",
+     "resolved_requirement": "3.0.11",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin"
+     ]
+    },
+    {
+     "name": "graceful-readlink",
+     "requirement": ">= 1.0.0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "commander"
+     ]
+    },
+    {
+     "name": "gulp-concat",
+     "resolved_requirement": "2.5.2",
+     "env": "dev"
+    },
+    {
+     "name": "gulp-cssmin",
+     "resolved_requirement": "0.1.7",
+     "env": "dev"
+    },
+    {
+     "name": "gulp-rename",
+     "requirement": "~1.1.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin"
+     ]
+    },
+    {
+     "name": "gulp-uglify",
+     "resolved_requirement": "1.2.0",
+     "env": "dev"
+    },
+    {
+     "name": "gulp-util",
+     "requirement": ">=3.0.0 <4.0.0-0",
+     "resolved_requirement": "3.0.8",
+     "env": "dev",
+     "parent": [
+      "gulp",
+      "gulp-uglify"
+     ]
+    },
+    {
+     "name": "gulp-util",
+     "resolved_requirement": "2.2.20",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin"
+     ]
+    },
+    {
+     "name": "gulp-util",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.8",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "gulp-util",
+     "requirement": "^3.0.1",
+     "resolved_requirement": "3.0.8",
+     "env": "dev",
+     "parent": [
+      "gulp",
+      "gulp-concat"
+     ]
+    },
+    {
+     "name": "gulp-util",
+     "requirement": "~2.2.0",
+     "resolved_requirement": "3.0.8",
+     "env": "dev",
+     "parent": [
+      "gulp",
+      "gulp-cssmin"
+     ]
+    },
+    {
+     "name": "gulp",
+     "resolved_requirement": "3.8.11",
+     "env": "dev"
+    },
+    {
+     "name": "gulplog",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "has-ansi",
+     "requirement": "^0.1.0",
+     "resolved_requirement": "0.1.0",
+     "env": "dev",
+     "parent": [
+      "chalk"
+     ]
+    },
+    {
+     "name": "has-ansi",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "dev",
+     "parent": [
+      "chalk",
+      "gulp-util",
+      "gulp-util@>=3.0.0 <4.0.0-0",
+      "gulp-util@^3.0.1",
+      "gulp-util@~2.2.0"
+     ]
+    },
+    {
+     "name": "has-gulplog",
+     "requirement": "^0.1.0",
+     "resolved_requirement": "0.1.0",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "has-value",
+     "resolved_requirement": "0.3.1",
+     "env": "dev",
+     "parent": [
+      "unset-value"
+     ]
+    },
+    {
+     "name": "has-value",
+     "requirement": "^0.3.1",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "unset-value"
+     ]
+    },
+    {
+     "name": "has-value",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "cache-base",
+      "unset-value"
+     ]
+    },
+    {
+     "name": "has-values",
+     "requirement": "^0.1.4",
+     "resolved_requirement": "0.1.4",
+     "env": "dev",
+     "parent": [
+      "has-value",
+      "unset-value"
+     ]
+    },
+    {
+     "name": "has-values",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "has-value"
+     ]
+    },
+    {
+     "name": "homedir-polyfill",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "expand-tilde"
+     ]
+    },
+    {
+     "name": "hosted-git-info",
+     "requirement": "^2.1.4",
+     "resolved_requirement": "2.7.1",
+     "env": "dev",
+     "parent": [
+      "normalize-package-data"
+     ]
+    },
+    {
+     "name": "indent-string",
+     "requirement": "^2.1.0",
+     "resolved_requirement": "2.1.0",
+     "env": "dev",
+     "parent": [
+      "redent"
+     ]
+    },
+    {
+     "name": "inflight",
+     "requirement": "^1.0.4",
+     "resolved_requirement": "1.0.6",
+     "env": "dev",
+     "parent": [
+      "glob"
+     ]
+    },
+    {
+     "name": "inherits",
+     "requirement": "1",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "glob",
+      "globule"
+     ]
+    },
+    {
+     "name": "inherits",
+     "requirement": "2",
+     "resolved_requirement": "2.0.3",
+     "env": "dev",
+     "parent": [
+      "glob"
+     ]
+    },
+    {
+     "name": "inherits",
+     "requirement": "~2.0.1",
+     "resolved_requirement": "2.0.3",
+     "env": "dev",
+     "parent": [
+      "glob",
+      "readable-stream"
+     ]
+    },
+    {
+     "name": "ini",
+     "requirement": "^1.3.4",
+     "resolved_requirement": "1.3.5",
+     "env": "dev",
+     "parent": [
+      "global-prefix"
+     ]
+    },
+    {
+     "name": "interpret",
+     "requirement": "^0.3.2",
+     "resolved_requirement": "0.3.10",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "is-absolute",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "parse-filepath"
+     ]
+    },
+    {
+     "name": "is-accessor-descriptor",
+     "requirement": "^0.1.6",
+     "resolved_requirement": "0.1.6",
+     "env": "dev",
+     "parent": [
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "is-accessor-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "base",
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "is-accessor-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "define-property",
+      "define-property@^0.2.5",
+      "define-property@^2.0.2",
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "is-accessor-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "extglob",
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "is-accessor-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "is-descriptor",
+      "snapdragon-node"
+     ]
+    },
+    {
+     "name": "is-arrayish",
+     "requirement": "^0.2.1",
+     "resolved_requirement": "0.2.1",
+     "env": "dev",
+     "parent": [
+      "error-ex"
+     ]
+    },
+    {
+     "name": "is-buffer",
+     "resolved_requirement": "1.1.6",
+     "env": "dev"
+    },
+    {
+     "name": "is-builtin-module",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "normalize-package-data"
+     ]
+    },
+    {
+     "name": "is-data-descriptor",
+     "requirement": "^0.1.4",
+     "resolved_requirement": "0.1.4",
+     "env": "dev",
+     "parent": [
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "is-data-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "base",
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "is-data-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "define-property",
+      "define-property@^0.2.5",
+      "define-property@^2.0.2",
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "is-data-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "extglob",
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "is-data-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "is-descriptor",
+      "snapdragon-node"
+     ]
+    },
+    {
+     "name": "is-descriptor",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "define-property",
+      "define-property@^0.2.5",
+      "define-property@^2.0.2"
+     ]
+    },
+    {
+     "name": "is-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "base",
+      "define-property"
+     ]
+    },
+    {
+     "name": "is-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "define-property",
+      "extglob"
+     ]
+    },
+    {
+     "name": "is-descriptor",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "define-property",
+      "snapdragon-node"
+     ]
+    },
+    {
+     "name": "is-descriptor",
+     "requirement": "^1.0.2",
+     "resolved_requirement": "0.1.6",
+     "env": "dev",
+     "parent": [
+      "define-property"
+     ]
+    },
+    {
+     "name": "is-extendable",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "extend-shallow",
+      "extend-shallow@^2.0.1",
+      "extend-shallow@^3.0.0"
+     ]
+    },
+    {
+     "name": "is-extendable",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "mixin-deep"
+     ]
+    },
+    {
+     "name": "is-extendable",
+     "requirement": "^0.1.1",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "extend-shallow",
+      "set-value"
+     ]
+    },
+    {
+     "name": "is-extendable",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "extend-shallow"
+     ]
+    },
+    {
+     "name": "is-extglob",
+     "requirement": "^2.1.0",
+     "resolved_requirement": "2.1.1",
+     "env": "dev",
+     "parent": [
+      "is-glob"
+     ]
+    },
+    {
+     "name": "is-finite",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "repeating"
+     ]
+    },
+    {
+     "name": "is-glob",
+     "requirement": "^3.1.0",
+     "resolved_requirement": "3.1.0",
+     "env": "dev",
+     "parent": [
+      "findup-sync"
+     ]
+    },
+    {
+     "name": "is-number",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "fill-range"
+     ]
+    },
+    {
+     "name": "is-plain-object",
+     "requirement": "^2.0.3",
+     "resolved_requirement": "2.0.4",
+     "env": "dev",
+     "parent": [
+      "fined"
+     ]
+    },
+    {
+     "name": "is-plain-object",
+     "requirement": "^2.0.4",
+     "resolved_requirement": "2.0.4",
+     "env": "dev",
+     "parent": [
+      "fined",
+      "liftoff"
+     ]
+    },
+    {
+     "name": "is-relative",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "is-absolute"
+     ]
+    },
+    {
+     "name": "is-unc-path",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "is-relative"
+     ]
+    },
+    {
+     "name": "is-utf8",
+     "requirement": "^0.2.0",
+     "resolved_requirement": "0.2.1",
+     "env": "dev",
+     "parent": [
+      "strip-bom"
+     ]
+    },
+    {
+     "name": "is-windows",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "global-modules"
+     ]
+    },
+    {
+     "name": "is-windows",
+     "requirement": "^1.0.2",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "global-modules",
+      "nanomatch"
+     ]
+    },
+    {
+     "name": "isarray",
+     "requirement": "0.0.1",
+     "resolved_requirement": "0.0.1",
+     "env": "dev",
+     "parent": [
+      "readable-stream"
+     ]
+    },
+    {
+     "name": "isarray",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "unset-value"
+     ]
+    },
+    {
+     "name": "isarray",
+     "requirement": "~1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "readable-stream",
+      "through2",
+      "through2@>=0.6.1 <1.0.0-0",
+      "through2@^0.6.3",
+      "through2@^2.0.0"
+     ]
+    },
+    {
+     "name": "isexe",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "dev",
+     "parent": [
+      "which"
+     ]
+    },
+    {
+     "name": "isobject",
+     "resolved_requirement": "2.1.0",
+     "env": "dev",
+     "parent": [
+      "has-value"
+     ]
+    },
+    {
+     "name": "isobject",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.1",
+     "env": "dev",
+     "parent": [
+      "base",
+      "class-utils"
+     ]
+    },
+    {
+     "name": "isobject",
+     "requirement": "^3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "dev",
+     "parent": [
+      "base"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "resolved_requirement": "3.2.2",
+     "env": "dev",
+     "parent": [
+      "is-accessor-descriptor"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "resolved_requirement": "3.2.2",
+     "env": "dev",
+     "parent": [
+      "is-data-descriptor"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "resolved_requirement": "3.2.2",
+     "env": "dev",
+     "parent": [
+      "is-number"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "resolved_requirement": "3.2.2",
+     "env": "dev",
+     "parent": [
+      "object-copy"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "resolved_requirement": "3.2.2",
+     "env": "dev",
+     "parent": [
+      "snapdragon-util"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "resolved_requirement": "3.2.2",
+     "env": "dev",
+     "parent": [
+      "to-object-path"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "resolved_requirement": "4.0.0",
+     "env": "dev",
+     "parent": [
+      "has-values"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "resolved_requirement": "5.1.0",
+     "env": "dev",
+     "parent": [
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "requirement": "^3.0.2",
+     "resolved_requirement": "6.0.2",
+     "env": "dev",
+     "parent": [
+      "has-values",
+      "is-accessor-descriptor"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "requirement": "^3.0.3",
+     "resolved_requirement": "6.0.2",
+     "env": "dev",
+     "parent": [
+      "has-values",
+      "object-copy"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "requirement": "^3.2.0",
+     "resolved_requirement": "6.0.2",
+     "env": "dev",
+     "parent": [
+      "has-values",
+      "snapdragon-util"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "requirement": "^4.0.0",
+     "resolved_requirement": "6.0.2",
+     "env": "dev",
+     "parent": [
+      "has-values"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "requirement": "^5.0.0",
+     "resolved_requirement": "6.0.2",
+     "env": "dev",
+     "parent": [
+      "has-values",
+      "is-descriptor"
+     ]
+    },
+    {
+     "name": "kind-of",
+     "requirement": "^6.0.2",
+     "resolved_requirement": "6.0.2",
+     "env": "dev",
+     "parent": [
+      "has-values",
+      "make-iterator"
+     ]
+    },
+    {
+     "name": "liftoff",
+     "requirement": "^2.0.1",
+     "resolved_requirement": "2.5.0",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "load-json-file",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "read-pkg"
+     ]
+    },
+    {
+     "name": "lodash._basecopy",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.1",
+     "env": "dev",
+     "parent": [
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash._basetostring",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.1",
+     "env": "dev",
+     "parent": [
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash._basevalues",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash._escapehtmlchar",
+     "resolved_requirement": "2.4.1",
+     "env": "dev"
+    },
+    {
+     "name": "lodash._escapestringchar",
+     "resolved_requirement": "2.4.1",
+     "env": "dev"
+    },
+    {
+     "name": "lodash._getnative",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.9.1",
+     "env": "dev",
+     "parent": [
+      "lodash.keys"
+     ]
+    },
+    {
+     "name": "lodash._htmlescapes",
+     "requirement": "~2.4.1",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "lodash._escapehtmlchar"
+     ]
+    },
+    {
+     "name": "lodash._isiterateecall",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.9",
+     "env": "dev",
+     "parent": [
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash._isnative",
+     "resolved_requirement": "2.4.1",
+     "env": "dev"
+    },
+    {
+     "name": "lodash._objecttypes",
+     "requirement": "~2.4.1",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "lodash._shimkeys"
+     ]
+    },
+    {
+     "name": "lodash._reescape",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "lodash._reevaluate",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "lodash._reinterpolate",
+     "requirement": "^2.4.1",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "lodash._reinterpolate",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "lodash._reinterpolate",
+     "requirement": "~2.4.1",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "gulp-util",
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash._reunescapedhtml",
+     "resolved_requirement": "2.4.1",
+     "env": "dev"
+    },
+    {
+     "name": "lodash._root",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.1",
+     "env": "dev",
+     "parent": [
+      "lodash.escape"
+     ]
+    },
+    {
+     "name": "lodash._shimkeys",
+     "resolved_requirement": "2.4.1",
+     "env": "dev"
+    },
+    {
+     "name": "lodash.defaults",
+     "resolved_requirement": "2.4.1",
+     "env": "dev"
+    },
+    {
+     "name": "lodash.escape",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.2.0",
+     "env": "dev",
+     "parent": [
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash.escape",
+     "requirement": "~2.4.1",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash.isarguments",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.1.0",
+     "env": "dev",
+     "parent": [
+      "lodash.keys"
+     ]
+    },
+    {
+     "name": "lodash.isarray",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.4",
+     "env": "dev",
+     "parent": [
+      "lodash.keys"
+     ]
+    },
+    {
+     "name": "lodash.isobject",
+     "resolved_requirement": "2.4.1",
+     "env": "dev"
+    },
+    {
+     "name": "lodash.keys",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "lodash._reunescapedhtml"
+     ]
+    },
+    {
+     "name": "lodash.keys",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "lodash.defaults"
+     ]
+    },
+    {
+     "name": "lodash.keys",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "lodash.values"
+     ]
+    },
+    {
+     "name": "lodash.keys",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.1.2",
+     "env": "dev",
+     "parent": [
+      "lodash._reunescapedhtml",
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash.keys",
+     "requirement": "~2.4.1",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "lodash.escape"
+     ]
+    },
+    {
+     "name": "lodash.keys",
+     "requirement": "~2.4.1",
+     "resolved_requirement": "3.1.2",
+     "env": "dev",
+     "parent": [
+      "lodash._reunescapedhtml"
+     ]
+    },
+    {
+     "name": "lodash.restparam",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.6.1",
+     "env": "dev",
+     "parent": [
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash.template",
+     "requirement": "^2.4.1",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "lodash.template",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.6.2",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "lodash.templatesettings",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.1.1",
+     "env": "dev",
+     "parent": [
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash.templatesettings",
+     "requirement": "~2.4.1",
+     "resolved_requirement": "2.4.1",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "lodash.template"
+     ]
+    },
+    {
+     "name": "lodash.values",
+     "resolved_requirement": "2.4.1",
+     "env": "dev"
+    },
+    {
+     "name": "lodash",
+     "requirement": "~1.0.1",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "globule"
+     ]
+    },
+    {
+     "name": "loud-rejection",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.6.0",
+     "env": "dev",
+     "parent": [
+      "meow"
+     ]
+    },
+    {
+     "name": "lru-cache",
+     "resolved_requirement": "2.7.3",
+     "env": "dev"
+    },
+    {
+     "name": "make-iterator",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "object.map"
+     ]
+    },
+    {
+     "name": "map-cache",
+     "requirement": "^0.2.0",
+     "resolved_requirement": "0.2.2",
+     "env": "dev",
+     "parent": [
+      "fragment-cache",
+      "parse-filepath"
+     ]
+    },
+    {
+     "name": "map-cache",
+     "requirement": "^0.2.2",
+     "resolved_requirement": "0.2.2",
+     "env": "dev",
+     "parent": [
+      "fragment-cache"
+     ]
+    },
+    {
+     "name": "map-obj",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "camelcase-keys"
+     ]
+    },
+    {
+     "name": "map-obj",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "camelcase-keys",
+      "meow"
+     ]
+    },
+    {
+     "name": "map-stream",
+     "requirement": "0.0.4",
+     "resolved_requirement": "0.0.4",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin"
+     ]
+    },
+    {
+     "name": "map-stream",
+     "requirement": ">=0.0.4",
+     "resolved_requirement": "0.0.4",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "gulp-rename"
+     ]
+    },
+    {
+     "name": "map-visit",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "collection-visit"
+     ]
+    },
+    {
+     "name": "meow",
+     "resolved_requirement": "3.7.0",
+     "env": "dev"
+    },
+    {
+     "name": "micromatch",
+     "requirement": "^3.0.4",
+     "resolved_requirement": "3.1.10",
+     "env": "dev",
+     "parent": [
+      "findup-sync"
+     ]
+    },
+    {
+     "name": "minimatch",
+     "requirement": "^2.0.1",
+     "resolved_requirement": "2.0.10",
+     "env": "dev",
+     "parent": [
+      "glob"
+     ]
+    },
+    {
+     "name": "minimatch",
+     "requirement": "~0.2.11",
+     "resolved_requirement": "0.2.14",
+     "env": "dev",
+     "parent": [
+      "glob",
+      "globule"
+     ]
+    },
+    {
+     "name": "minimatch",
+     "requirement": "~0.2.11",
+     "resolved_requirement": "2.0.10",
+     "env": "dev",
+     "parent": [
+      "glob",
+      "globule"
+     ]
+    },
+    {
+     "name": "minimist",
+     "requirement": "0.0.8",
+     "resolved_requirement": "1.2.0",
+     "env": "dev",
+     "parent": [
+      "gulp",
+      "mkdirp"
+     ]
+    },
+    {
+     "name": "minimist",
+     "resolved_requirement": "0.0.8",
+     "env": "dev",
+     "parent": [
+      "mkdirp"
+     ]
+    },
+    {
+     "name": "minimist",
+     "requirement": "^0.2.0",
+     "resolved_requirement": "0.2.0",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "minimist",
+     "requirement": "^1.1.0",
+     "resolved_requirement": "1.2.0",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "minimist",
+     "requirement": "^1.1.3",
+     "resolved_requirement": "1.2.0",
+     "env": "dev",
+     "parent": [
+      "gulp",
+      "meow"
+     ]
+    },
+    {
+     "name": "mixin-deep",
+     "requirement": "^1.2.0",
+     "resolved_requirement": "1.3.1",
+     "env": "dev",
+     "parent": [
+      "base"
+     ]
+    },
+    {
+     "name": "mkdirp",
+     "requirement": "^0.5.0",
+     "resolved_requirement": "0.5.1",
+     "env": "dev",
+     "parent": [
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "ms",
+     "requirement": "2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "dev",
+     "parent": [
+      "debug"
+     ]
+    },
+    {
+     "name": "multipipe",
+     "requirement": "^0.1.2",
+     "resolved_requirement": "0.1.2",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "nanomatch",
+     "requirement": "^1.2.9",
+     "resolved_requirement": "1.2.13",
+     "env": "dev",
+     "parent": [
+      "micromatch"
+     ]
+    },
+    {
+     "name": "natives",
+     "requirement": "^1.1.0",
+     "resolved_requirement": "1.1.6",
+     "env": "dev",
+     "parent": [
+      "graceful-fs"
+     ]
+    },
+    {
+     "name": "normalize-package-data",
+     "requirement": "^2.3.2",
+     "resolved_requirement": "2.4.0",
+     "env": "dev",
+     "parent": [
+      "meow",
+      "read-pkg"
+     ]
+    },
+    {
+     "name": "normalize-package-data",
+     "requirement": "^2.3.4",
+     "resolved_requirement": "2.4.0",
+     "env": "dev",
+     "parent": [
+      "meow"
+     ]
+    },
+    {
+     "name": "number-is-nan",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "is-finite"
+     ]
+    },
+    {
+     "name": "object-assign",
+     "resolved_requirement": "4.1.1",
+     "env": "dev",
+     "parent": [
+      "meow"
+     ]
+    },
+    {
+     "name": "object-assign",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "object-assign",
+     "requirement": "^4.0.1",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "gulp-util",
+      "meow"
+     ]
+    },
+    {
+     "name": "object-copy",
+     "requirement": "^0.1.0",
+     "resolved_requirement": "0.1.0",
+     "env": "dev",
+     "parent": [
+      "static-extend"
+     ]
+    },
+    {
+     "name": "object-visit",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "collection-visit"
+     ]
+    },
+    {
+     "name": "object.defaults",
+     "requirement": "^1.1.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "fined"
+     ]
+    },
+    {
+     "name": "object.map",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "liftoff"
+     ]
+    },
+    {
+     "name": "object.pick",
+     "requirement": "^1.2.0",
+     "resolved_requirement": "1.3.0",
+     "env": "dev",
+     "parent": [
+      "fined"
+     ]
+    },
+    {
+     "name": "object.pick",
+     "requirement": "^1.3.0",
+     "resolved_requirement": "1.3.0",
+     "env": "dev",
+     "parent": [
+      "fined",
+      "micromatch"
+     ]
+    },
+    {
+     "name": "once",
+     "requirement": "^1.3.0",
+     "resolved_requirement": "1.3.3",
+     "env": "dev",
+     "parent": [
+      "glob"
+     ]
+    },
+    {
+     "name": "once",
+     "requirement": "~1.3.0",
+     "resolved_requirement": "1.3.3",
+     "env": "dev",
+     "parent": [
+      "end-of-stream",
+      "glob"
+     ]
+    },
+    {
+     "name": "orchestrator",
+     "requirement": "^0.3.0",
+     "resolved_requirement": "0.3.8",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "ordered-read-streams",
+     "requirement": "^0.1.0",
+     "resolved_requirement": "0.1.0",
+     "env": "dev",
+     "parent": [
+      "glob-stream"
+     ]
+    },
+    {
+     "name": "os-homedir",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "tildify"
+     ]
+    },
+    {
+     "name": "parse-filepath",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "fined"
+     ]
+    },
+    {
+     "name": "parse-json",
+     "requirement": "^2.2.0",
+     "resolved_requirement": "2.2.0",
+     "env": "dev",
+     "parent": [
+      "load-json-file"
+     ]
+    },
+    {
+     "name": "parse-passwd",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "homedir-polyfill"
+     ]
+    },
+    {
+     "name": "pascalcase",
+     "requirement": "^0.1.1",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "base"
+     ]
+    },
+    {
+     "name": "path-exists",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.1.0",
+     "env": "dev",
+     "parent": [
+      "find-up"
+     ]
+    },
+    {
+     "name": "path-parse",
+     "requirement": "^1.0.5",
+     "resolved_requirement": "1.0.6",
+     "env": "dev",
+     "parent": [
+      "resolve"
+     ]
+    },
+    {
+     "name": "path-root-regex",
+     "requirement": "^0.1.0",
+     "resolved_requirement": "0.1.2",
+     "env": "dev",
+     "parent": [
+      "path-root"
+     ]
+    },
+    {
+     "name": "path-root",
+     "requirement": "^0.1.1",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "parse-filepath"
+     ]
+    },
+    {
+     "name": "path-type",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "read-pkg"
+     ]
+    },
+    {
+     "name": "pify",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.3.0",
+     "env": "dev",
+     "parent": [
+      "load-json-file"
+     ]
+    },
+    {
+     "name": "pinkie-promise",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "find-up"
+     ]
+    },
+    {
+     "name": "pinkie",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.4",
+     "env": "dev",
+     "parent": [
+      "pinkie-promise"
+     ]
+    },
+    {
+     "name": "posix-character-classes",
+     "requirement": "^0.1.0",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "expand-brackets"
+     ]
+    },
+    {
+     "name": "pretty-hrtime",
+     "requirement": "^0.2.0",
+     "resolved_requirement": "0.2.2",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "process-nextick-args",
+     "resolved_requirement": "2.0.0",
+     "env": "dev"
+    },
+    {
+     "name": "read-pkg-up",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "meow"
+     ]
+    },
+    {
+     "name": "read-pkg",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "read-pkg-up"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "requirement": ">=1.0.33-1 <1.1.0-0",
+     "resolved_requirement": "1.0.34",
+     "env": "dev",
+     "parent": [
+      "glob-stream",
+      "through2"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "requirement": ">=1.0.33-1 <1.1.0-0",
+     "resolved_requirement": "1.0.34",
+     "env": "dev",
+     "parent": [
+      "gulp-concat",
+      "through2"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "requirement": ">=1.0.33-1 <1.1.0-0",
+     "resolved_requirement": "1.0.34",
+     "env": "dev",
+     "parent": [
+      "gulp-uglify",
+      "through2"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "requirement": ">=1.0.33-1 <1.1.0-0",
+     "resolved_requirement": "1.0.34",
+     "env": "dev",
+     "parent": [
+      "through2",
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "resolved_requirement": "2.3.6",
+     "env": "dev",
+     "parent": [
+      "through2",
+      "through2@>=0.6.1 <1.0.0-0",
+      "through2@^0.6.3",
+      "through2@^2.0.0"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "requirement": "^2.1.5",
+     "resolved_requirement": "1.1.14",
+     "env": "dev",
+     "parent": [
+      "duplexer2",
+      "through2"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "requirement": "~1.0.17",
+     "resolved_requirement": "1.0.34",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "through2"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "requirement": "~1.1.9",
+     "resolved_requirement": "1.1.14",
+     "env": "dev",
+     "parent": [
+      "duplexer2"
+     ]
+    },
+    {
+     "name": "rechoir",
+     "requirement": "^0.6.2",
+     "resolved_requirement": "0.6.2",
+     "env": "dev",
+     "parent": [
+      "liftoff"
+     ]
+    },
+    {
+     "name": "redent",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "meow"
+     ]
+    },
+    {
+     "name": "regex-not",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "expand-brackets"
+     ]
+    },
+    {
+     "name": "regex-not",
+     "requirement": "^1.0.2",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "expand-brackets",
+      "to-regex"
+     ]
+    },
+    {
+     "name": "repeat-element",
+     "requirement": "^1.1.2",
+     "resolved_requirement": "1.1.3",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "repeat-string",
+     "requirement": "^1.6.1",
+     "resolved_requirement": "1.6.1",
+     "env": "dev",
+     "parent": [
+      "fill-range"
+     ]
+    },
+    {
+     "name": "repeating",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "indent-string"
+     ]
+    },
+    {
+     "name": "replace-ext",
+     "requirement": "0.0.1",
+     "resolved_requirement": "0.0.1",
+     "env": "dev",
+     "parent": [
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "resolve-dir",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "findup-sync",
+      "global-modules"
+     ]
+    },
+    {
+     "name": "resolve-dir",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "findup-sync"
+     ]
+    },
+    {
+     "name": "resolve-url",
+     "requirement": "^0.2.1",
+     "resolved_requirement": "0.2.1",
+     "env": "dev",
+     "parent": [
+      "source-map-resolve"
+     ]
+    },
+    {
+     "name": "resolve",
+     "requirement": "^1.1.6",
+     "resolved_requirement": "1.8.1",
+     "env": "dev",
+     "parent": [
+      "liftoff",
+      "rechoir"
+     ]
+    },
+    {
+     "name": "resolve",
+     "requirement": "^1.1.7",
+     "resolved_requirement": "1.8.1",
+     "env": "dev",
+     "parent": [
+      "liftoff"
+     ]
+    },
+    {
+     "name": "ret",
+     "requirement": "~0.1.10",
+     "resolved_requirement": "0.1.15",
+     "env": "dev",
+     "parent": [
+      "safe-regex"
+     ]
+    },
+    {
+     "name": "rimraf",
+     "resolved_requirement": "2.2.8",
+     "env": "dev"
+    },
+    {
+     "name": "safe-buffer",
+     "resolved_requirement": "5.1.2",
+     "env": "dev"
+    },
+    {
+     "name": "safe-regex",
+     "requirement": "^1.1.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "regex-not"
+     ]
+    },
+    {
+     "name": "semver",
+     "requirement": "2 || 3 || 4 || 5",
+     "resolved_requirement": "4.3.6",
+     "env": "dev",
+     "parent": [
+      "gulp",
+      "normalize-package-data"
+     ]
+    },
+    {
+     "name": "semver",
+     "requirement": "^4.1.0",
+     "resolved_requirement": "4.3.6",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "sequencify",
+     "requirement": "~0.0.7",
+     "resolved_requirement": "0.0.7",
+     "env": "dev",
+     "parent": [
+      "orchestrator"
+     ]
+    },
+    {
+     "name": "set-value",
+     "resolved_requirement": "0.4.3",
+     "env": "dev",
+     "parent": [
+      "union-value"
+     ]
+    },
+    {
+     "name": "set-value",
+     "requirement": "^0.4.3",
+     "resolved_requirement": "2.0.0",
+     "env": "dev",
+     "parent": [
+      "cache-base",
+      "union-value"
+     ]
+    },
+    {
+     "name": "set-value",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "dev",
+     "parent": [
+      "cache-base"
+     ]
+    },
+    {
+     "name": "sigmund",
+     "resolved_requirement": "1.0.1",
+     "env": "dev"
+    },
+    {
+     "name": "signal-exit",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "loud-rejection"
+     ]
+    },
+    {
+     "name": "snapdragon-node",
+     "requirement": "^2.0.1",
+     "resolved_requirement": "2.1.1",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "snapdragon-util",
+     "requirement": "^3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "dev",
+     "parent": [
+      "snapdragon-node"
+     ]
+    },
+    {
+     "name": "snapdragon",
+     "requirement": "^0.8.1",
+     "resolved_requirement": "0.8.2",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "source-map-resolve",
+     "requirement": "^0.5.0",
+     "resolved_requirement": "0.5.2",
+     "env": "dev",
+     "parent": [
+      "snapdragon"
+     ]
+    },
+    {
+     "name": "source-map-url",
+     "requirement": "^0.4.0",
+     "resolved_requirement": "0.4.0",
+     "env": "dev",
+     "parent": [
+      "source-map-resolve"
+     ]
+    },
+    {
+     "name": "source-map",
+     "requirement": "0.1.34",
+     "resolved_requirement": "0.5.7",
+     "env": "dev",
+     "parent": [
+      "clean-css",
+      "uglify-js"
+     ]
+    },
+    {
+     "name": "source-map",
+     "requirement": "0.4.x",
+     "resolved_requirement": "0.5.7",
+     "env": "dev",
+     "parent": [
+      "clean-css"
+     ]
+    },
+    {
+     "name": "source-map",
+     "resolved_requirement": "0.1.34",
+     "env": "dev",
+     "parent": [
+      "uglify-js"
+     ]
+    },
+    {
+     "name": "source-map",
+     "resolved_requirement": "0.1.43",
+     "env": "dev",
+     "parent": [
+      "vinyl-sourcemaps-apply"
+     ]
+    },
+    {
+     "name": "source-map",
+     "resolved_requirement": "0.4.4",
+     "env": "dev",
+     "parent": [
+      "clean-css"
+     ]
+    },
+    {
+     "name": "source-map",
+     "resolved_requirement": "0.6.1",
+     "env": "dev",
+     "parent": [
+      "concat-with-sourcemaps"
+     ]
+    },
+    {
+     "name": "source-map",
+     "requirement": "^0.1.39",
+     "resolved_requirement": "0.5.7",
+     "env": "dev",
+     "parent": [
+      "clean-css",
+      "vinyl-sourcemaps-apply"
+     ]
+    },
+    {
+     "name": "source-map",
+     "requirement": "^0.5.6",
+     "resolved_requirement": "0.5.7",
+     "env": "dev",
+     "parent": [
+      "clean-css",
+      "snapdragon"
+     ]
+    },
+    {
+     "name": "source-map",
+     "requirement": "^0.6.1",
+     "resolved_requirement": "0.5.7",
+     "env": "dev",
+     "parent": [
+      "clean-css",
+      "concat-with-sourcemaps"
+     ]
+    },
+    {
+     "name": "sparkles",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "glogg"
+     ]
+    },
+    {
+     "name": "spdx-correct",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "validate-npm-package-license"
+     ]
+    },
+    {
+     "name": "spdx-exceptions",
+     "requirement": "^2.1.0",
+     "resolved_requirement": "2.2.0",
+     "env": "dev",
+     "parent": [
+      "spdx-expression-parse"
+     ]
+    },
+    {
+     "name": "spdx-expression-parse",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "spdx-correct"
+     ]
+    },
+    {
+     "name": "spdx-license-ids",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "spdx-correct"
+     ]
+    },
+    {
+     "name": "split-string",
+     "requirement": "^3.0.1",
+     "resolved_requirement": "3.1.0",
+     "env": "dev",
+     "parent": [
+      "braces",
+      "set-value"
+     ]
+    },
+    {
+     "name": "split-string",
+     "requirement": "^3.0.2",
+     "resolved_requirement": "3.1.0",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "static-extend",
+     "requirement": "^0.1.1",
+     "resolved_requirement": "0.1.2",
+     "env": "dev",
+     "parent": [
+      "class-utils"
+     ]
+    },
+    {
+     "name": "stream-consume",
+     "requirement": "~0.1.0",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "orchestrator"
+     ]
+    },
+    {
+     "name": "string_decoder",
+     "requirement": "~0.10.x",
+     "resolved_requirement": "0.10.31",
+     "env": "dev",
+     "parent": [
+      "readable-stream"
+     ]
+    },
+    {
+     "name": "string_decoder",
+     "requirement": "~1.1.1",
+     "resolved_requirement": "1.1.1",
+     "env": "dev",
+     "parent": [
+      "readable-stream",
+      "through2",
+      "through2@>=0.6.1 <1.0.0-0",
+      "through2@^0.6.3",
+      "through2@^2.0.0"
+     ]
+    },
+    {
+     "name": "strip-ansi",
+     "requirement": "^0.3.0",
+     "resolved_requirement": "0.3.0",
+     "env": "dev",
+     "parent": [
+      "chalk"
+     ]
+    },
+    {
+     "name": "strip-ansi",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.1",
+     "env": "dev",
+     "parent": [
+      "chalk",
+      "gulp-util",
+      "gulp-util@>=3.0.0 <4.0.0-0",
+      "gulp-util@^3.0.1",
+      "gulp-util@~2.2.0"
+     ]
+    },
+    {
+     "name": "strip-bom",
+     "resolved_requirement": "2.0.0",
+     "env": "dev",
+     "parent": [
+      "load-json-file"
+     ]
+    },
+    {
+     "name": "strip-bom",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "load-json-file",
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "strip-bom",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "load-json-file"
+     ]
+    },
+    {
+     "name": "strip-indent",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "dev",
+     "parent": [
+      "redent"
+     ]
+    },
+    {
+     "name": "supports-color",
+     "requirement": "^0.2.0",
+     "resolved_requirement": "0.2.0",
+     "env": "dev",
+     "parent": [
+      "chalk"
+     ]
+    },
+    {
+     "name": "supports-color",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "dev",
+     "parent": [
+      "chalk",
+      "gulp-util",
+      "gulp-util@>=3.0.0 <4.0.0-0",
+      "gulp-util@^3.0.1",
+      "gulp-util@~2.2.0"
+     ]
+    },
+    {
+     "name": "temp-write",
+     "requirement": "~0.1.0",
+     "resolved_requirement": "0.1.1",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin"
+     ]
+    },
+    {
+     "name": "tempfile",
+     "requirement": "~0.1.2",
+     "resolved_requirement": "0.1.3",
+     "env": "dev",
+     "parent": [
+      "temp-write"
+     ]
+    },
+    {
+     "name": "through2",
+     "requirement": ">=0.6.1 <1.0.0-0",
+     "resolved_requirement": "2.0.3",
+     "env": "dev",
+     "parent": [
+      "glob-stream",
+      "gulp-uglify"
+     ]
+    },
+    {
+     "name": "through2",
+     "resolved_requirement": "0.6.5",
+     "env": "dev",
+     "parent": [
+      "glob-stream"
+     ]
+    },
+    {
+     "name": "through2",
+     "resolved_requirement": "0.6.5",
+     "env": "dev",
+     "parent": [
+      "gulp-concat"
+     ]
+    },
+    {
+     "name": "through2",
+     "resolved_requirement": "0.6.5",
+     "env": "dev",
+     "parent": [
+      "gulp-uglify"
+     ]
+    },
+    {
+     "name": "through2",
+     "resolved_requirement": "0.6.5",
+     "env": "dev",
+     "parent": [
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "through2",
+     "requirement": "^0.5.0",
+     "resolved_requirement": "0.5.1",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "through2",
+     "requirement": "^0.6.1",
+     "resolved_requirement": "2.0.3",
+     "env": "dev",
+     "parent": [
+      "glob-stream"
+     ]
+    },
+    {
+     "name": "through2",
+     "requirement": "^0.6.3",
+     "resolved_requirement": "2.0.3",
+     "env": "dev",
+     "parent": [
+      "glob-stream",
+      "gulp-concat"
+     ]
+    },
+    {
+     "name": "through2",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.3",
+     "env": "dev",
+     "parent": [
+      "glob-stream",
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "tildify",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.2.0",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "time-stamp",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.0",
+     "env": "dev",
+     "parent": [
+      "fancy-log"
+     ]
+    },
+    {
+     "name": "to-object-path",
+     "requirement": "^0.3.0",
+     "resolved_requirement": "0.3.0",
+     "env": "dev",
+     "parent": [
+      "cache-base"
+     ]
+    },
+    {
+     "name": "to-regex-range",
+     "requirement": "^2.1.0",
+     "resolved_requirement": "2.1.1",
+     "env": "dev",
+     "parent": [
+      "fill-range"
+     ]
+    },
+    {
+     "name": "to-regex",
+     "requirement": "^3.0.1",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "to-regex",
+     "requirement": "^3.0.2",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "braces",
+      "micromatch"
+     ]
+    },
+    {
+     "name": "trim-newlines",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "meow"
+     ]
+    },
+    {
+     "name": "uglify-js",
+     "requirement": "2.4.19",
+     "resolved_requirement": "2.4.19",
+     "env": "dev",
+     "parent": [
+      "gulp-uglify"
+     ]
+    },
+    {
+     "name": "uglify-to-browserify",
+     "requirement": "~1.0.0",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "uglify-js"
+     ]
+    },
+    {
+     "name": "unc-path-regex",
+     "requirement": "^0.1.2",
+     "resolved_requirement": "0.1.2",
+     "env": "dev",
+     "parent": [
+      "is-unc-path"
+     ]
+    },
+    {
+     "name": "union-value",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "cache-base"
+     ]
+    },
+    {
+     "name": "unique-stream",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "glob-stream"
+     ]
+    },
+    {
+     "name": "unset-value",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "cache-base"
+     ]
+    },
+    {
+     "name": "urix",
+     "requirement": "^0.1.0",
+     "resolved_requirement": "0.1.0",
+     "env": "dev",
+     "parent": [
+      "source-map-resolve"
+     ]
+    },
+    {
+     "name": "use",
+     "requirement": "^3.1.0",
+     "resolved_requirement": "3.1.1",
+     "env": "dev",
+     "parent": [
+      "snapdragon"
+     ]
+    },
+    {
+     "name": "user-home",
+     "requirement": "^1.1.1",
+     "resolved_requirement": "1.1.1",
+     "env": "dev",
+     "parent": [
+      "v8flags"
+     ]
+    },
+    {
+     "name": "util-deprecate",
+     "resolved_requirement": "1.0.2",
+     "env": "dev"
+    },
+    {
+     "name": "uuid",
+     "requirement": "~1.4.0",
+     "resolved_requirement": "1.4.2",
+     "env": "dev",
+     "parent": [
+      "tempfile"
+     ]
+    },
+    {
+     "name": "v8flags",
+     "requirement": "^2.0.2",
+     "resolved_requirement": "2.1.1",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "validate-npm-package-license",
+     "requirement": "^3.0.1",
+     "resolved_requirement": "3.0.4",
+     "env": "dev",
+     "parent": [
+      "normalize-package-data"
+     ]
+    },
+    {
+     "name": "vinyl-fs",
+     "requirement": "^0.3.0",
+     "resolved_requirement": "0.3.14",
+     "env": "dev",
+     "parent": [
+      "gulp"
+     ]
+    },
+    {
+     "name": "vinyl-sourcemaps-apply",
+     "requirement": ">=0.1.1 <0.2.0-0",
+     "resolved_requirement": "0.1.4",
+     "env": "dev",
+     "parent": [
+      "gulp-uglify"
+     ]
+    },
+    {
+     "name": "vinyl",
+     "resolved_requirement": "0.4.6",
+     "env": "dev",
+     "parent": [
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "vinyl",
+     "requirement": "^0.2.1",
+     "resolved_requirement": "0.2.3",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "gulp-util"
+     ]
+    },
+    {
+     "name": "vinyl",
+     "requirement": "^0.4.0",
+     "resolved_requirement": "0.5.3",
+     "env": "dev",
+     "parent": [
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "vinyl",
+     "requirement": "^0.5.0",
+     "resolved_requirement": "0.5.3",
+     "env": "dev",
+     "parent": [
+      "gulp-util",
+      "vinyl-fs"
+     ]
+    },
+    {
+     "name": "which",
+     "requirement": "^1.2.14",
+     "resolved_requirement": "1.3.1",
+     "env": "dev",
+     "parent": [
+      "global-prefix"
+     ]
+    },
+    {
+     "name": "window-size",
+     "requirement": "0.1.0",
+     "resolved_requirement": "0.1.0",
+     "env": "dev",
+     "parent": [
+      "yargs"
+     ]
+    },
+    {
+     "name": "wordwrap",
+     "requirement": "0.0.2",
+     "resolved_requirement": "0.0.2",
+     "env": "dev",
+     "parent": [
+      "yargs"
+     ]
+    },
+    {
+     "name": "wrappy",
+     "requirement": "1",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "inflight"
+     ]
+    },
+    {
+     "name": "xtend",
+     "requirement": "~3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "gulp-cssmin",
+      "through2"
+     ]
+    },
+    {
+     "name": "xtend",
+     "requirement": "~4.0.1",
+     "resolved_requirement": "4.0.1",
+     "env": "dev",
+     "parent": [
+      "through2"
+     ]
+    },
+    {
+     "name": "yargs",
+     "requirement": "~3.5.4",
+     "resolved_requirement": "3.5.4",
+     "env": "dev",
+     "parent": [
+      "uglify-js"
+     ]
+    }
+   ],
+   "kind": "lockfile",
+   "related": [
+    "samples/Clients/old/MvcImplicitJwtRequest/package.json"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "samples/Clients/old/MvcImplicitJwtRequest/package.json",
+  "type": "file",
+  "name": "package.json",
+  "extension": ".json",
+  "result": {
+   "platform": "npm",
+   "dependencies": [
+    {
+     "name": "gulp-concat",
+     "requirement": "2.5.2",
+     "resolved_requirement": "2.5.2",
+     "env": "dev"
+    },
+    {
+     "name": "gulp-cssmin",
+     "requirement": "0.1.7",
+     "resolved_requirement": "0.1.7",
+     "env": "dev"
+    },
+    {
+     "name": "gulp-uglify",
+     "requirement": "1.2.0",
+     "resolved_requirement": "1.2.0",
+     "env": "dev"
+    },
+    {
+     "name": "gulp",
+     "requirement": "3.8.11",
+     "resolved_requirement": "3.8.11",
+     "env": "dev"
+    },
+    {
+     "name": "rimraf",
+     "requirement": "2.2.8",
+     "resolved_requirement": "2.2.8",
+     "env": "dev"
+    }
+   ],
+   "kind": "manifest",
+   "related": [
+    "samples/Clients/old/MvcImplicitJwtRequest/package-lock.json"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "samples/Clients/old/MvcManual/MvcManual.csproj",
+  "type": "file",
+  "name": "MvcManual.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "System.IdentityModel.Tokens.Jwt",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Clients/src/APIs/ResourceBasedApi/ResourceBasedApi.csproj",
+  "type": "file",
+  "name": "ResourceBasedApi.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityModel.AspNetCore.AccessTokenValidation",
+     "requirement": "1.0.0-preview.3",
+     "resolved_requirement": "1.0.0-preview.3",
+     "env": "runtime"
+    },
+    {
+     "name": "IdentityModel.AspNetCore.OAuth2Introspection",
+     "requirement": "4.0.1",
+     "resolved_requirement": "4.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.AspNetCore",
+     "requirement": "3.2.0",
+     "resolved_requirement": "3.2.0",
+     "env": "runtime"
+    },
+    {
+     "name": "System.IdentityModel.Tokens.Jwt",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Clients/src/APIs/SimpleApi/SimpleApi.csproj",
+  "type": "file",
+  "name": "SimpleApi.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.AspNetCore",
+     "requirement": "3.2.0",
+     "resolved_requirement": "3.2.0",
+     "env": "runtime"
+    },
+    {
+     "name": "System.IdentityModel.Tokens.Jwt",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Clients/src/ConsoleCode/ConsoleCode.csproj",
+  "type": "file",
+  "name": "ConsoleCode.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityModel.OidcClient",
+     "requirement": "4.0.0-preview.1.3",
+     "resolved_requirement": "4.0.0-preview.1.3",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNetCore.Server.Kestrel",
+     "requirement": "2.2.0",
+     "resolved_requirement": "2.2.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.Extensions.Logging",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.Sinks.Console",
+     "requirement": "3.1.1",
+     "resolved_requirement": "3.1.1",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "samples/Clients/src/ConsolePrivateKeyJwtClient/ConsolePrivateKeyJwtClient.csproj",
+  "type": "file",
+  "name": "ConsolePrivateKeyJwtClient.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "System.IdentityModel.Tokens.Jwt",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "samples/Clients/src/Constants/Constants.csproj",
+  "type": "file",
+  "name": "Constants.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityModel",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netstandard2.0",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "samples/Clients/src/MvcAutomaticTokenManagement/MvcAutomaticTokenManagement.csproj",
+  "type": "file",
+  "name": "MvcAutomaticTokenManagement.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityModel.AspNetCore",
+     "requirement": "1.0.0-preview.7",
+     "resolved_requirement": "1.0.0-preview.7",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNetCore.Authentication.OpenIdConnect",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.AspNetCore",
+     "requirement": "3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.Sinks.Console",
+     "requirement": "3.1.1",
+     "resolved_requirement": "3.1.1",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Clients/src/MvcCode/MvcCode.csproj",
+  "type": "file",
+  "name": "MvcCode.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Authentication.OpenIdConnect",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Clients/src/MvcHybridBackChannel/MvcHybridBackChannel.csproj",
+  "type": "file",
+  "name": "MvcHybridBackChannel.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Authentication.OpenIdConnect",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Clients/src/WindowsConsoleSystemBrowser/WindowsConsoleSystemBrowser.csproj",
+  "type": "file",
+  "name": "WindowsConsoleSystemBrowser.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityModel.OidcClient",
+     "requirement": "4.0.0-preview.1.3",
+     "resolved_requirement": "4.0.0-preview.1.3",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.Extensions.Logging",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.Sinks.Console",
+     "requirement": "3.1.1",
+     "resolved_requirement": "3.1.1",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "net472",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "samples/KeyManagement/FileSystem/FileSystemSample.csproj",
+  "type": "file",
+  "name": "FileSystemSample.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityServer4.KeyManagement",
+     "requirement": "2.1.0",
+     "resolved_requirement": "2.1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.AspNetCore",
+     "requirement": "3.4.0",
+     "resolved_requirement": "3.4.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.Sinks.Console",
+     "requirement": "3.1.1",
+     "resolved_requirement": "3.1.1",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/KeyManagement/database/EF/EfSample.csproj",
+  "type": "file",
+  "name": "EfSample.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityServer4.KeyManagement.EntityFramework",
+     "requirement": "2.1.0",
+     "resolved_requirement": "2.1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.EntityFrameworkCore.SqlServer",
+     "requirement": "3.1.7",
+     "resolved_requirement": "3.1.7",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.AspNetCore",
+     "requirement": "3.4.0",
+     "resolved_requirement": "3.4.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.Sinks.Console",
+     "requirement": "3.1.1",
+     "resolved_requirement": "3.1.1",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/KeyManagement/database/migrations/migrations.csproj",
+  "type": "file",
+  "name": "migrations.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.EntityFrameworkCore.Design",
+     "requirement": "3.1.3",
+     "resolved_requirement": "3.1.3",
+     "env": "dev"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/1_ClientCredentials/src/Api/Api.csproj",
+  "type": "file",
+  "name": "Api.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/1_ClientCredentials/src/Client/Client.csproj",
+  "type": "file",
+  "name": "Client.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityModel",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/1_ClientCredentials/src/IdentityServer/IdentityServer.csproj",
+  "type": "file",
+  "name": "IdentityServer.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityServer4",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.AspNetCore",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/2_InteractiveAspNetCore/src/Api/Api.csproj",
+  "type": "file",
+  "name": "Api.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/2_InteractiveAspNetCore/src/Client/Client.csproj",
+  "type": "file",
+  "name": "Client.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityModel",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/2_InteractiveAspNetCore/src/IdentityServer/IdentityServer.csproj",
+  "type": "file",
+  "name": "IdentityServer.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityServer4",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNetCore.Authentication.Google",
+     "requirement": "3.1.5",
+     "resolved_requirement": "3.1.5",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.AspNetCore",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/2_InteractiveAspNetCore/src/MvcClient/MvcClient.csproj",
+  "type": "file",
+  "name": "MvcClient.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Authentication.OpenIdConnect",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/3_AspNetCoreAndApis/src/Api/Api.csproj",
+  "type": "file",
+  "name": "Api.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/3_AspNetCoreAndApis/src/Client/Client.csproj",
+  "type": "file",
+  "name": "Client.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityModel",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/3_AspNetCoreAndApis/src/IdentityServer/IdentityServer.csproj",
+  "type": "file",
+  "name": "IdentityServer.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityServer4",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNetCore.Authentication.Google",
+     "requirement": "3.1.5",
+     "resolved_requirement": "3.1.5",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.AspNetCore",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/3_AspNetCoreAndApis/src/MvcClient/MvcClient.csproj",
+  "type": "file",
+  "name": "MvcClient.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Authentication.OpenIdConnect",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/4_JavaScriptClient/src/Api/Api.csproj",
+  "type": "file",
+  "name": "Api.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/4_JavaScriptClient/src/Client/Client.csproj",
+  "type": "file",
+  "name": "Client.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityModel",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/4_JavaScriptClient/src/IdentityServer/IdentityServer.csproj",
+  "type": "file",
+  "name": "IdentityServer.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityServer4",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNetCore.Authentication.Google",
+     "requirement": "3.1.5",
+     "resolved_requirement": "3.1.5",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.AspNetCore",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/4_JavaScriptClient/src/MvcClient/MvcClient.csproj",
+  "type": "file",
+  "name": "MvcClient.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Authentication.OpenIdConnect",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/5_EntityFramework/src/Api/Api.csproj",
+  "type": "file",
+  "name": "Api.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/5_EntityFramework/src/Client/Client.csproj",
+  "type": "file",
+  "name": "Client.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityModel",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/5_EntityFramework/src/IdentityServer/IdentityServer.csproj",
+  "type": "file",
+  "name": "IdentityServer.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityServer4.EntityFramework",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNetCore.Authentication.Google",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.EntityFrameworkCore.Design",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.EntityFrameworkCore.SqlServer",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.AspNetCore",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/5_EntityFramework/src/MvcClient/MvcClient.csproj",
+  "type": "file",
+  "name": "MvcClient.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Authentication.OpenIdConnect",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/6_AspNetIdentity/src/Api/Api.csproj",
+  "type": "file",
+  "name": "Api.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/6_AspNetIdentity/src/Client/Client.csproj",
+  "type": "file",
+  "name": "Client.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityModel",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/6_AspNetIdentity/src/IdentityServerAspNetIdentity/IdentityServerAspNetIdentity.csproj",
+  "type": "file",
+  "name": "IdentityServerAspNetIdentity.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityServer4.AspNetIdentity",
+     "requirement": "4.0.0",
+     "resolved_requirement": "4.0.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNetCore.Authentication.Google",
+     "requirement": "3.1.5",
+     "resolved_requirement": "3.1.5",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore",
+     "requirement": "3.1.5",
+     "resolved_requirement": "3.1.5",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNetCore.Identity.EntityFrameworkCore",
+     "requirement": "3.1.5",
+     "resolved_requirement": "3.1.5",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNetCore.Identity.UI",
+     "requirement": "3.1.5",
+     "resolved_requirement": "3.1.5",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.EntityFrameworkCore.Sqlite",
+     "requirement": "3.1.5",
+     "resolved_requirement": "3.1.5",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.EntityFrameworkCore.Tools",
+     "requirement": "3.1.5",
+     "resolved_requirement": "3.1.5",
+     "env": "dev"
+    },
+    {
+     "name": "Serilog.AspNetCore",
+     "requirement": "3.2.0",
+     "resolved_requirement": "3.2.0",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "samples/Quickstarts/6_AspNetIdentity/src/MvcClient/MvcClient.csproj",
+  "type": "file",
+  "name": "MvcClient.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Authentication.OpenIdConnect",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "src/AspNetIdentity/build/build.csproj",
+  "type": "file",
+  "name": "build.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Bullseye",
+     "env": "runtime"
+    },
+    {
+     "name": "SimpleExec",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "src/AspNetIdentity/host/Host.csproj",
+  "type": "file",
+  "name": "Host.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Identity.EntityFrameworkCore",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.EntityFrameworkCore.SqlServer",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.AspNetCore",
+     "requirement": "3.2.0",
+     "resolved_requirement": "3.2.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.Sinks.Console",
+     "requirement": "3.1.1",
+     "resolved_requirement": "3.1.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.Sinks.File",
+     "requirement": "4.1.0",
+     "resolved_requirement": "4.1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog",
+     "requirement": "2.9.0",
+     "resolved_requirement": "2.9.0",
+     "env": "runtime"
+    },
+    {
+     "name": "System.Security.Principal.Windows",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "src/AspNetIdentity/migrations/SqlServer/SqlServer.csproj",
+  "type": "file",
+  "name": "SqlServer.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.EntityFrameworkCore.Design",
+     "env": "dev"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "src/AspNetIdentity/src/IdentityServer4.AspNetIdentity.csproj",
+  "type": "file",
+  "name": "IdentityServer4.AspNetIdentity.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityServer4",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.SourceLink.GitHub",
+     "env": "dev"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_frameworks": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "src/EntityFramework.Storage/build/build.csproj",
+  "type": "file",
+  "name": "build.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Bullseye",
+     "env": "runtime"
+    },
+    {
+     "name": "SimpleExec",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "src/EntityFramework.Storage/host/ConsoleHost/ConsoleHost.csproj",
+  "type": "file",
+  "name": "ConsoleHost.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.EntityFrameworkCore.SqlServer",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "src/EntityFramework.Storage/migrations/SqlServer/SqlServer.csproj",
+  "type": "file",
+  "name": "SqlServer.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.EntityFrameworkCore.Design",
+     "env": "dev"
+    },
+    {
+     "name": "Microsoft.EntityFrameworkCore.SqlServer",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "src/EntityFramework.Storage/src/IdentityServer4.EntityFramework.Storage.csproj",
+  "type": "file",
+  "name": "IdentityServer4.EntityFramework.Storage.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "AutoMapper",
+     "env": "runtime"
+    },
+    {
+     "name": "IdentityServer4.Storage",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.EntityFrameworkCore.Relational",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.SourceLink.GitHub",
+     "env": "dev"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_frameworks": "netstandard2.0",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "src/EntityFramework.Storage/test/IntegrationTests/IdentityServer4.EntityFramework.IntegrationTests.csproj",
+  "type": "file",
+  "name": "IdentityServer4.EntityFramework.IntegrationTests.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "FluentAssertions",
+     "env": "runtime"
+    },
+    {
+     "name": "IdentityServer4.Storage",
+     "env": "runtime"
+    },
+    {
+     "name": "IdentityServer4",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.EntityFrameworkCore.InMemory",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.EntityFrameworkCore.SqlServer",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.EntityFrameworkCore.Sqlite",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.NET.Test.Sdk",
+     "env": "runtime"
+    },
+    {
+     "name": "xunit.runner.visualstudio",
+     "env": "runtime"
+    },
+    {
+     "name": "xunit",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "src/EntityFramework.Storage/test/UnitTests/IdentityServer4.EntityFramework.UnitTests.csproj",
+  "type": "file",
+  "name": "IdentityServer4.EntityFramework.UnitTests.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "FluentAssertions",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.EntityFrameworkCore.Sqlite",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.NET.Test.Sdk",
+     "env": "runtime"
+    },
+    {
+     "name": "xunit.runner.visualstudio",
+     "env": "runtime"
+    },
+    {
+     "name": "xunit",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_frameworks": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "src/EntityFramework/build/build.csproj",
+  "type": "file",
+  "name": "build.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Bullseye",
+     "env": "runtime"
+    },
+    {
+     "name": "SimpleExec",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "src/EntityFramework/host/Host.csproj",
+  "type": "file",
+  "name": "Host.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.EntityFrameworkCore.SqlServer",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.AspNetCore",
+     "requirement": "3.2.0",
+     "resolved_requirement": "3.2.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.Sinks.Console",
+     "requirement": "3.1.1",
+     "resolved_requirement": "3.1.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.Sinks.File",
+     "requirement": "4.1.0",
+     "resolved_requirement": "4.1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog",
+     "requirement": "2.9.0",
+     "resolved_requirement": "2.9.0",
+     "env": "runtime"
+    },
+    {
+     "name": "System.Security.Principal.Windows",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "src/EntityFramework/migrations/SqlServer/SqlServer.csproj",
+  "type": "file",
+  "name": "SqlServer.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.EntityFrameworkCore.SqlServer",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "src/EntityFramework/src/IdentityServer4.EntityFramework.csproj",
+  "type": "file",
+  "name": "IdentityServer4.EntityFramework.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityServer4.EntityFramework.Storage",
+     "env": "runtime"
+    },
+    {
+     "name": "IdentityServer4",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.SourceLink.GitHub",
+     "env": "dev"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_frameworks": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "src/EntityFramework/test/IdentityServer4.EntityFramework.Tests/IdentityServer4.EntityFramework.Tests.csproj",
+  "type": "file",
+  "name": "IdentityServer4.EntityFramework.Tests.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "FluentAssertions",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.EntityFrameworkCore.InMemory",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.EntityFrameworkCore.SqlServer",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.EntityFrameworkCore.Sqlite",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.NET.Test.Sdk",
+     "env": "runtime"
+    },
+    {
+     "name": "xunit.runner.visualstudio",
+     "env": "runtime"
+    },
+    {
+     "name": "xunit",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "src/IdentityServer4/build/build.csproj",
+  "type": "file",
+  "name": "build.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Bullseye",
+     "env": "runtime"
+    },
+    {
+     "name": "SimpleExec",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "src/IdentityServer4/host/Host.csproj",
+  "type": "file",
+  "name": "Host.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Microsoft.AspNetCore.Authentication.Certificate",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.EntityFrameworkCore.Design",
+     "env": "dev"
+    },
+    {
+     "name": "Microsoft.EntityFrameworkCore.Sqlite",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.AspNetCore",
+     "requirement": "3.2.0",
+     "resolved_requirement": "3.2.0",
+     "env": "runtime"
+    },
+    {
+     "name": "System.Security.Principal.Windows",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk.Web"
+   }
+  }
+ },
+ {
+  "path": "src/IdentityServer4/src/IdentityServer4.csproj",
+  "type": "file",
+  "name": "IdentityServer4.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityModel",
+     "env": "runtime"
+    },
+    {
+     "name": "IdentityServer4.Storage",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNetCore.Authentication.OpenIdConnect",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.SourceLink.GitHub",
+     "env": "dev"
+    },
+    {
+     "name": "Newtonsoft.Json",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "src/IdentityServer4/test/IdentityServer.IntegrationTests/IdentityServer.IntegrationTests.csproj",
+  "type": "file",
+  "name": "IdentityServer.IntegrationTests.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "FluentAssertions",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNetCore.TestHost",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.NET.Test.Sdk",
+     "env": "runtime"
+    },
+    {
+     "name": "System.IdentityModel.Tokens.Jwt",
+     "env": "runtime"
+    },
+    {
+     "name": "xunit.runner.visualstudio",
+     "env": "dev"
+    },
+    {
+     "name": "xunit",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "src/IdentityServer4/test/IdentityServer.UnitTests/IdentityServer.UnitTests.csproj",
+  "type": "file",
+  "name": "IdentityServer.UnitTests.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "FluentAssertions",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.NET.Test.Sdk",
+     "env": "runtime"
+    },
+    {
+     "name": "xunit.runner.visualstudio",
+     "env": "dev"
+    },
+    {
+     "name": "xunit",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "src/Storage/build/build.csproj",
+  "type": "file",
+  "name": "build.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Bullseye",
+     "env": "runtime"
+    },
+    {
+     "name": "SimpleExec",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netcoreapp3.1",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ },
+ {
+  "path": "src/Storage/src/IdentityServer4.Storage.csproj",
+  "type": "file",
+  "name": "IdentityServer4.Storage.csproj",
+  "extension": ".csproj",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityModel",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.SourceLink.GitHub",
+     "env": "dev"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {
+    "target_framework": "netstandard2.0",
+    "project_sdk": "Microsoft.NET.Sdk"
+   }
+  }
+ }
+]

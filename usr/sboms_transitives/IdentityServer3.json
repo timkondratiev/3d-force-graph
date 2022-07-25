@@ -1,0 +1,568 @@
+[
+ {
+  "path": "source/.nuget/packages.config",
+  "type": "file",
+  "name": "packages.config",
+  "extension": ".config",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "psake",
+     "requirement": "4.4.1",
+     "resolved_requirement": "4.4.1",
+     "env": "runtime"
+    },
+    {
+     "name": "xunit.runner.console",
+     "requirement": "2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "source/Core/packages.config",
+  "type": "file",
+  "name": "packages.config",
+  "extension": ".config",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Autofac.WebApi2",
+     "requirement": "3.4.0",
+     "resolved_requirement": "3.4.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Autofac",
+     "requirement": "3.5.2",
+     "resolved_requirement": "3.5.2",
+     "env": "runtime"
+    },
+    {
+     "name": "ILMerge",
+     "requirement": "2.14.1208",
+     "resolved_requirement": "2.14.1208",
+     "env": "runtime"
+    },
+    {
+     "name": "IdentityModel",
+     "requirement": "1.11.0",
+     "resolved_requirement": "1.11.0",
+     "env": "runtime"
+    },
+    {
+     "name": "LibLog",
+     "requirement": "4.2.5",
+     "resolved_requirement": "4.2.5",
+     "env": "dev"
+    },
+    {
+     "name": "Microsoft.AspNet.Cors",
+     "requirement": "5.2.3",
+     "resolved_requirement": "5.2.3",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNet.WebApi.Client",
+     "requirement": "5.2.3",
+     "resolved_requirement": "5.2.3",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNet.WebApi.Core",
+     "requirement": "5.2.3",
+     "resolved_requirement": "5.2.3",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNet.WebApi.Owin",
+     "requirement": "5.2.3",
+     "resolved_requirement": "5.2.3",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNet.WebApi.Tracing",
+     "requirement": "5.2.3",
+     "resolved_requirement": "5.2.3",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Cors",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.FileSystems",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Security.Cookies",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Security",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.StaticFiles",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Newtonsoft.Json",
+     "requirement": "9.0.1",
+     "resolved_requirement": "9.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Owin",
+     "requirement": "1.0",
+     "resolved_requirement": "1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "System.IdentityModel.Tokens.Jwt",
+     "requirement": "4.0.2.206221351",
+     "resolved_requirement": "4.0.2.206221351",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "source/Host.Configuration/packages.config",
+  "type": "file",
+  "name": "packages.config",
+  "extension": ".config",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityModel",
+     "requirement": "1.11.0",
+     "resolved_requirement": "1.11.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.IdentityModel.Protocol.Extensions",
+     "requirement": "1.0.2.206221351",
+     "resolved_requirement": "1.0.2.206221351",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Security.Facebook",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Security.Google",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Security.OpenIdConnect",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Security.Twitter",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Security.WsFederation",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Security",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Newtonsoft.Json",
+     "requirement": "9.0.1",
+     "resolved_requirement": "9.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Owin",
+     "requirement": "1.0",
+     "resolved_requirement": "1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "System.IdentityModel.Tokens.Jwt",
+     "requirement": "4.0.2.206221351",
+     "resolved_requirement": "4.0.2.206221351",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "source/Host.Console/packages.config",
+  "type": "file",
+  "name": "packages.config",
+  "extension": ".config",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityModel",
+     "requirement": "1.11.0",
+     "resolved_requirement": "1.11.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Diagnostics",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Host.HttpListener",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Hosting",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.SelfHost",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Newtonsoft.Json",
+     "requirement": "9.0.1",
+     "resolved_requirement": "9.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Owin",
+     "requirement": "1.0",
+     "resolved_requirement": "1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.Sinks.Literate",
+     "requirement": "2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog",
+     "requirement": "2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "source/Host.Web/packages.config",
+  "type": "file",
+  "name": "packages.config",
+  "extension": ".config",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "IdentityModel",
+     "requirement": "1.11.0",
+     "resolved_requirement": "1.11.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Host.SystemWeb",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Newtonsoft.Json",
+     "requirement": "9.0.1",
+     "resolved_requirement": "9.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Owin",
+     "requirement": "1.0",
+     "resolved_requirement": "1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog.Sinks.Trace",
+     "requirement": "2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Serilog",
+     "requirement": "2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "source/IdentityServer3.nuspec",
+  "type": "file",
+  "name": "IdentityServer3.nuspec",
+  "extension": ".nuspec",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Owin",
+     "requirement": "1.0",
+     "resolved_requirement": "1.0",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "source/Tests/UnitTests/packages.config",
+  "type": "file",
+  "name": "packages.config",
+  "extension": ".config",
+  "result": {
+   "platform": "nuget",
+   "dependencies": [
+    {
+     "name": "Autofac",
+     "requirement": "3.5.2",
+     "resolved_requirement": "3.5.2",
+     "env": "runtime"
+    },
+    {
+     "name": "Castle.Core",
+     "requirement": "3.3.3",
+     "resolved_requirement": "3.3.3",
+     "env": "runtime"
+    },
+    {
+     "name": "FluentAssertions",
+     "requirement": "4.11.0",
+     "resolved_requirement": "4.11.0",
+     "env": "runtime"
+    },
+    {
+     "name": "IdentityModel",
+     "requirement": "1.11.0",
+     "resolved_requirement": "1.11.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNet.Cors",
+     "requirement": "5.2.3",
+     "resolved_requirement": "5.2.3",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNet.WebApi.Client",
+     "requirement": "5.2.3",
+     "resolved_requirement": "5.2.3",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNet.WebApi.Core",
+     "requirement": "5.2.3",
+     "resolved_requirement": "5.2.3",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.AspNet.WebApi.Owin",
+     "requirement": "5.2.3",
+     "resolved_requirement": "5.2.3",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Cors",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Hosting",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Security.Cookies",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Security.Google",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Security",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin.Testing",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Microsoft.Owin",
+     "requirement": "3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Moq",
+     "requirement": "4.5.10",
+     "resolved_requirement": "4.5.10",
+     "env": "runtime"
+    },
+    {
+     "name": "Newtonsoft.Json",
+     "requirement": "9.0.1",
+     "resolved_requirement": "9.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Owin",
+     "requirement": "1.0",
+     "resolved_requirement": "1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "OwinHttpMessageHandler",
+     "requirement": "1.3.5",
+     "resolved_requirement": "1.3.5",
+     "env": "runtime"
+    },
+    {
+     "name": "System.IdentityModel.Tokens.Jwt",
+     "requirement": "4.0.2.206221351",
+     "resolved_requirement": "4.0.2.206221351",
+     "env": "runtime"
+    },
+    {
+     "name": "xunit.abstractions",
+     "requirement": "2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "runtime"
+    },
+    {
+     "name": "xunit.assert",
+     "requirement": "2.1.0",
+     "resolved_requirement": "2.1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "xunit.core",
+     "requirement": "2.1.0",
+     "resolved_requirement": "2.1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "xunit.extensibility.core",
+     "requirement": "2.1.0",
+     "resolved_requirement": "2.1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "xunit.extensibility.execution",
+     "requirement": "2.1.0",
+     "resolved_requirement": "2.1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "xunit.runner.visualstudio",
+     "requirement": "2.1.0",
+     "resolved_requirement": "2.1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "xunit",
+     "requirement": "2.1.0",
+     "resolved_requirement": "2.1.0",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ }
+]

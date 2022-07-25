@@ -1,0 +1,604 @@
+[
+ {
+  "path": "requirements/dev.txt",
+  "type": "file",
+  "name": "dev.txt",
+  "extension": ".txt",
+  "result": {
+   "platform": "pypi",
+   "dependencies": [
+    {
+     "name": "build",
+     "requirement": "==0.8.0",
+     "resolved_requirement": "0.8.0",
+     "env": "dev"
+    },
+    {
+     "name": "cfgv",
+     "requirement": "==3.3.1",
+     "resolved_requirement": "3.3.1",
+     "env": "dev"
+    },
+    {
+     "name": "click",
+     "requirement": "==8.1.3",
+     "resolved_requirement": "8.1.3",
+     "env": "dev"
+    },
+    {
+     "name": "distlib",
+     "requirement": "==0.3.4",
+     "resolved_requirement": "0.3.4",
+     "env": "dev"
+    },
+    {
+     "name": "filelock",
+     "requirement": "==3.7.1",
+     "resolved_requirement": "3.7.1",
+     "env": "dev"
+    },
+    {
+     "name": "greenlet",
+     "requirement": "==1.1.2",
+     "resolved_requirement": "1.1.2",
+     "env": "dev"
+    },
+    {
+     "name": "identify",
+     "requirement": "==2.5.1",
+     "resolved_requirement": "2.5.1",
+     "env": "dev"
+    },
+    {
+     "name": "nodeenv",
+     "requirement": "==1.7.0",
+     "resolved_requirement": "1.7.0",
+     "env": "dev"
+    },
+    {
+     "name": "pep517",
+     "requirement": "==0.12.0",
+     "resolved_requirement": "0.12.0",
+     "env": "dev"
+    },
+    {
+     "name": "pip-compile-multi",
+     "requirement": "==2.4.5",
+     "resolved_requirement": "2.4.5",
+     "env": "dev"
+    },
+    {
+     "name": "pip-tools",
+     "requirement": "==6.8.0",
+     "resolved_requirement": "6.8.0",
+     "env": "dev"
+    },
+    {
+     "name": "platformdirs",
+     "requirement": "==2.5.2",
+     "resolved_requirement": "2.5.2",
+     "env": "dev"
+    },
+    {
+     "name": "pre-commit",
+     "requirement": "==2.20.0",
+     "resolved_requirement": "2.20.0",
+     "env": "dev"
+    },
+    {
+     "name": "pyyaml",
+     "requirement": "==6.0",
+     "resolved_requirement": "6.0",
+     "env": "dev"
+    },
+    {
+     "name": "six",
+     "requirement": "==1.16.0",
+     "resolved_requirement": "1.16.0",
+     "env": "dev"
+    },
+    {
+     "name": "toml",
+     "requirement": "==0.10.2",
+     "resolved_requirement": "0.10.2",
+     "env": "dev"
+    },
+    {
+     "name": "toposort",
+     "requirement": "==1.7",
+     "resolved_requirement": "1.7",
+     "env": "dev"
+    },
+    {
+     "name": "tox",
+     "requirement": "==3.25.1",
+     "resolved_requirement": "3.25.1",
+     "env": "dev"
+    },
+    {
+     "name": "virtualenv",
+     "requirement": "==20.15.1",
+     "resolved_requirement": "20.15.1",
+     "env": "dev"
+    },
+    {
+     "name": "wheel",
+     "requirement": "==0.37.1",
+     "resolved_requirement": "0.37.1",
+     "env": "dev"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "requirements/docs.txt",
+  "type": "file",
+  "name": "docs.txt",
+  "extension": ".txt",
+  "result": {
+   "platform": "pypi",
+   "dependencies": [
+    {
+     "name": "alabaster",
+     "requirement": "==0.7.12",
+     "resolved_requirement": "0.7.12",
+     "env": "docs"
+    },
+    {
+     "name": "babel",
+     "requirement": "==2.10.3",
+     "resolved_requirement": "2.10.3",
+     "env": "docs"
+    },
+    {
+     "name": "certifi",
+     "requirement": "==2022.6.15",
+     "resolved_requirement": "2022.6.15",
+     "env": "docs"
+    },
+    {
+     "name": "charset-normalizer",
+     "requirement": "==2.1.0",
+     "resolved_requirement": "2.1.0",
+     "env": "docs"
+    },
+    {
+     "name": "docutils",
+     "requirement": "==0.17.1",
+     "resolved_requirement": "0.17.1",
+     "env": "docs"
+    },
+    {
+     "name": "idna",
+     "requirement": "==3.3",
+     "resolved_requirement": "3.3",
+     "env": "docs"
+    },
+    {
+     "name": "imagesize",
+     "requirement": "==1.4.1",
+     "resolved_requirement": "1.4.1",
+     "env": "docs"
+    },
+    {
+     "name": "jinja2",
+     "requirement": "==3.1.2",
+     "resolved_requirement": "3.1.2",
+     "env": "docs"
+    },
+    {
+     "name": "markupsafe",
+     "requirement": "==2.1.1",
+     "resolved_requirement": "2.1.1",
+     "env": "docs"
+    },
+    {
+     "name": "packaging",
+     "requirement": "==21.3",
+     "resolved_requirement": "21.3",
+     "env": "docs"
+    },
+    {
+     "name": "pallets-sphinx-themes",
+     "requirement": "==2.0.2",
+     "resolved_requirement": "2.0.2",
+     "env": "docs"
+    },
+    {
+     "name": "pygments",
+     "requirement": "==2.12.0",
+     "resolved_requirement": "2.12.0",
+     "env": "docs"
+    },
+    {
+     "name": "pyparsing",
+     "requirement": "==3.0.9",
+     "resolved_requirement": "3.0.9",
+     "env": "docs"
+    },
+    {
+     "name": "pytz",
+     "requirement": "==2022.1",
+     "resolved_requirement": "2022.1",
+     "env": "docs"
+    },
+    {
+     "name": "requests",
+     "requirement": "==2.28.1",
+     "resolved_requirement": "2.28.1",
+     "env": "docs"
+    },
+    {
+     "name": "snowballstemmer",
+     "requirement": "==2.2.0",
+     "resolved_requirement": "2.2.0",
+     "env": "docs"
+    },
+    {
+     "name": "sphinx-issues",
+     "requirement": "==3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "docs"
+    },
+    {
+     "name": "sphinx-tabs",
+     "requirement": "==3.3.1",
+     "resolved_requirement": "3.3.1",
+     "env": "docs"
+    },
+    {
+     "name": "sphinx",
+     "requirement": "==4.5.0",
+     "resolved_requirement": "4.5.0",
+     "env": "docs"
+    },
+    {
+     "name": "sphinxcontrib-applehelp",
+     "requirement": "==1.0.2",
+     "resolved_requirement": "1.0.2",
+     "env": "docs"
+    },
+    {
+     "name": "sphinxcontrib-devhelp",
+     "requirement": "==1.0.2",
+     "resolved_requirement": "1.0.2",
+     "env": "docs"
+    },
+    {
+     "name": "sphinxcontrib-htmlhelp",
+     "requirement": "==2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "docs"
+    },
+    {
+     "name": "sphinxcontrib-jsmath",
+     "requirement": "==1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "docs"
+    },
+    {
+     "name": "sphinxcontrib-log-cabinet",
+     "requirement": "==1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "docs"
+    },
+    {
+     "name": "sphinxcontrib-qthelp",
+     "requirement": "==1.0.3",
+     "resolved_requirement": "1.0.3",
+     "env": "docs"
+    },
+    {
+     "name": "sphinxcontrib-serializinghtml",
+     "requirement": "==1.1.5",
+     "resolved_requirement": "1.1.5",
+     "env": "docs"
+    },
+    {
+     "name": "urllib3",
+     "requirement": "==1.26.10",
+     "resolved_requirement": "1.26.10",
+     "env": "docs"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "requirements/tests-pallets-dev.txt",
+  "type": "file",
+  "name": "tests-pallets-dev.txt",
+  "extension": ".txt",
+  "result": {
+   "platform": "pypi",
+   "dependencies": [
+    {
+     "name": "click",
+     "requirement": "@ https://github.com/pallets/click/archive/refs/heads/main.tar.gz",
+     "env": "tests-pallets-dev"
+    },
+    {
+     "name": "itsdangerous",
+     "requirement": "@ https://github.com/pallets/itsdangerous/archive/refs/heads/main.tar.gz",
+     "env": "tests-pallets-dev"
+    },
+    {
+     "name": "jinja2",
+     "requirement": "@ https://github.com/pallets/jinja/archive/refs/heads/main.tar.gz",
+     "env": "tests-pallets-dev"
+    },
+    {
+     "name": "markupsafe",
+     "requirement": "@ https://github.com/pallets/markupsafe/archive/refs/heads/main.tar.gz",
+     "env": "tests-pallets-dev"
+    },
+    {
+     "name": "werkzeug",
+     "requirement": "@ https://github.com/pallets/werkzeug/archive/refs/heads/main.tar.gz",
+     "env": "tests-pallets-dev"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "requirements/tests-pallets-min.txt",
+  "type": "file",
+  "name": "tests-pallets-min.txt",
+  "extension": ".txt",
+  "result": {
+   "platform": "pypi",
+   "dependencies": [
+    {
+     "name": "click",
+     "requirement": "==8.0.0",
+     "resolved_requirement": "8.0.0",
+     "env": "tests-pallets-min"
+    },
+    {
+     "name": "itsdangerous",
+     "requirement": "==2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "tests-pallets-min"
+    },
+    {
+     "name": "jinja2",
+     "requirement": "==3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "tests-pallets-min"
+    },
+    {
+     "name": "markupsafe",
+     "requirement": "==2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "tests-pallets-min"
+    },
+    {
+     "name": "werkzeug",
+     "requirement": "==2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "tests-pallets-min"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "requirements/tests.txt",
+  "type": "file",
+  "name": "tests.txt",
+  "extension": ".txt",
+  "result": {
+   "platform": "pypi",
+   "dependencies": [
+    {
+     "name": "asgiref",
+     "requirement": "==3.5.2",
+     "resolved_requirement": "3.5.2",
+     "env": "tests"
+    },
+    {
+     "name": "attrs",
+     "requirement": "==21.4.0",
+     "resolved_requirement": "21.4.0",
+     "env": "tests"
+    },
+    {
+     "name": "blinker",
+     "requirement": "==1.4",
+     "resolved_requirement": "1.4",
+     "env": "tests"
+    },
+    {
+     "name": "greenlet",
+     "requirement": "==1.1.2",
+     "resolved_requirement": "1.1.2",
+     "env": "tests"
+    },
+    {
+     "name": "iniconfig",
+     "requirement": "==1.1.1",
+     "resolved_requirement": "1.1.1",
+     "env": "tests"
+    },
+    {
+     "name": "packaging",
+     "requirement": "==21.3",
+     "resolved_requirement": "21.3",
+     "env": "tests"
+    },
+    {
+     "name": "pluggy",
+     "requirement": "==1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "tests"
+    },
+    {
+     "name": "py",
+     "requirement": "==1.11.0",
+     "resolved_requirement": "1.11.0",
+     "env": "tests"
+    },
+    {
+     "name": "pyparsing",
+     "requirement": "==3.0.9",
+     "resolved_requirement": "3.0.9",
+     "env": "tests"
+    },
+    {
+     "name": "pytest",
+     "requirement": "==7.1.2",
+     "resolved_requirement": "7.1.2",
+     "env": "tests"
+    },
+    {
+     "name": "python-dotenv",
+     "requirement": "==0.20.0",
+     "resolved_requirement": "0.20.0",
+     "env": "tests"
+    },
+    {
+     "name": "tomli",
+     "requirement": "==2.0.1",
+     "resolved_requirement": "2.0.1",
+     "env": "tests"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "requirements/typing.txt",
+  "type": "file",
+  "name": "typing.txt",
+  "extension": ".txt",
+  "result": {
+   "platform": "pypi",
+   "dependencies": [
+    {
+     "name": "cffi",
+     "requirement": "==1.15.1",
+     "resolved_requirement": "1.15.1",
+     "env": "typing"
+    },
+    {
+     "name": "cryptography",
+     "requirement": "==37.0.4",
+     "resolved_requirement": "37.0.4",
+     "env": "typing"
+    },
+    {
+     "name": "mypy-extensions",
+     "requirement": "==0.4.3",
+     "resolved_requirement": "0.4.3",
+     "env": "typing"
+    },
+    {
+     "name": "mypy",
+     "requirement": "==0.961",
+     "resolved_requirement": "0.961",
+     "env": "typing"
+    },
+    {
+     "name": "pycparser",
+     "requirement": "==2.21",
+     "resolved_requirement": "2.21",
+     "env": "typing"
+    },
+    {
+     "name": "tomli",
+     "requirement": "==2.0.1",
+     "resolved_requirement": "2.0.1",
+     "env": "typing"
+    },
+    {
+     "name": "types-contextvars",
+     "requirement": "==2.4.7",
+     "resolved_requirement": "2.4.7",
+     "env": "typing"
+    },
+    {
+     "name": "types-dataclasses",
+     "requirement": "==0.6.6",
+     "resolved_requirement": "0.6.6",
+     "env": "typing"
+    },
+    {
+     "name": "types-setuptools",
+     "requirement": "==62.6.1",
+     "resolved_requirement": "62.6.1",
+     "env": "typing"
+    },
+    {
+     "name": "typing-extensions",
+     "requirement": "==4.3.0",
+     "resolved_requirement": "4.3.0",
+     "env": "typing"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "setup.py",
+  "type": "file",
+  "name": "setup.py",
+  "extension": ".py",
+  "result": {
+   "platform": "pypi",
+   "dependencies": [
+    {
+     "name": "Jinja2",
+     "requirement": ">=3.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Werkzeug",
+     "requirement": ">=2.2.0",
+     "env": "runtime"
+    },
+    {
+     "name": "asgiref",
+     "requirement": ">=3.2",
+     "env": "optional"
+    },
+    {
+     "name": "click",
+     "requirement": ">=8.0",
+     "env": "runtime"
+    },
+    {
+     "name": "importlib-metadata",
+     "requirement": ">=3.6.0",
+     "env": "runtime"
+    },
+    {
+     "name": "itsdangerous",
+     "requirement": ">=2.0",
+     "env": "runtime"
+    },
+    {
+     "name": "python-dotenv",
+     "requirement": "*",
+     "env": "optional"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ }
+]
