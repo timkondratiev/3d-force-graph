@@ -20,37 +20,62 @@
 
         let gData, Graph
 
+
         // Grgaph generation and visualization
-        fetch('SBOM.json')
+        fetch('three-package-lock.json')
             .then(res => res.json())
             .then(sbom => {
 
                 // Make graph data
-                gProps = {
+                const gProps = {
                     nodeColor: 0xffffff,
                     linkColor: 0xffffff,
                 }
 
-                namesArray = []
+                const namesArray = []
+                const unresolvedDeps = []
+
                 gData = {
-                    nodes: sbom.dependencies.map((module, i) => {
-                        namesArray.push(module.ref)
-                        return { id: i, name: module.ref }
-                    }),
-                    // nodes: sbom.components
-                    // .filter(comp => comp.type === "library")
-                    // .map( component => ({name:component["bom-ref"], ...component})),
+                    nodes: [],
                     links: []
                 }
 
-                for (let module of sbom.dependencies) {
-                    if (!module.dependsOn) continue
-                    for (let j of module.dependsOn) {
-                        gData.links.push({ source: namesArray.indexOf(module.ref), target: namesArray.indexOf(j) })
-                    }
+                for (let module_ of Object.keys(sbom.packages)) {
+                    let module = module_.replace("node_modules/", "")
+                    namesArray.push(module)
+                    gData.nodes.push({ id: gData.nodes.length, name: module })
+
                 }
 
-                // cross-link node objects
+                // console.dir(namesArray)
+                for (let module of Object.keys(sbom.packages)) {
+                    // console.log(sbom[module][devDependencies])
+                    const module_stripped = module.replace("node_modules/", "")
+                    if (sbom.packages[module].dependencies) {
+                        for (let j of Object.keys(sbom.packages[module].dependencies)) {
+                            if (namesArray.indexOf(j) == "-1") {
+                                unresolvedDeps.push(j)
+                                continue
+                            }
+                            gData.links.push({ source: namesArray.indexOf(module_stripped), target: namesArray.indexOf(j) })
+                            // console.dir(module_stripped)
+                        }
+                    }
+
+                    else if (sbom.packages[module].devDependencies) {
+                        for (let j of Object.keys(sbom.packages[module].devDependencies)) {
+                            if (namesArray.indexOf(j) == "-1") {
+                                unresolvedDeps.push(j)
+                                continue
+                            }
+                            gData.links.push({ source: namesArray.indexOf(module_stripped), target: namesArray.indexOf(j) })
+                        }
+                    }
+
+                }
+                console.log(unresolvedDeps)
+
+                // // cross-link node objects
                 gData.links.forEach(link => {
                     // console.log(gData)
                     const a = gData.nodes[link.source];
@@ -97,8 +122,10 @@
                         highlightLinks.clear();
                         if (node) {
                             highlightNodes.add(node);
-                            node.neighbors.forEach(neighbor => highlightNodes.add(neighbor));
-                            node.links.forEach(link => highlightLinks.add(link));
+                            if (node.neighbors || node.links){
+                                node.neighbors.forEach(neighbor => highlightNodes.add(neighbor));
+                                node.links.forEach(link => highlightLinks.add(link));
+                            }
                         }
 
                         hoverNode = node || null;
@@ -140,7 +167,7 @@
                 }
             }
             )
-            .catch(err => { throw err });
+            // .catch(err => { throw err });
 
 
 
